@@ -1,0 +1,9 @@
+{
+  "name": "Recetario Toni Merino",
+  "short_name": "Recetas",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f6f3ed",
+  "theme_color": "#f6f3ed",
+  "description": "Recetario personal de Toni Merino"
+}
