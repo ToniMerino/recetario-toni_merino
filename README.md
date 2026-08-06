@@ -1,24 +1,14 @@
-# Recetario Toni Merino v0.1
+# Recetario Toni Merino v0.2
 
-## Publicación en GitHub Pages
-1. Sube **todos estos archivos** a la raíz del repositorio.
-2. Ve a **Ajustes → Páginas**.
-3. En **Fuente**, elige **Implementar desde una rama**.
-4. En **Rama**, selecciona **principal** y **/(raíz)**.
-5. Pulsa **Guardar**.
+Versión de contenido con 8 fichas reales:
 
-## Archivos obligatorios
-- index.html
-- styles.css
-- data.js
-- app.js
+- Escudella i carn d'olla – Iaia Pilar
+- Bisqué de langostinos (Thermomix)
+- Caldo base para arroces (pendiente de completar)
+- Magdalenas caseras de Puente Genil
+- Helado de vainilla y nueces (Thermomix)
+- Marca de calamar para arroces y fideuás
+- Leche de almendras (Thermomix)
+- Adobo tradicional para costillas y cinta de lomo
 
-## Funciones incluidas
-- Catálogo alfabético.
-- Buscador.
-- Filtro Recetas / Técnicas.
-- Color diferenciado para técnicas.
-- Ficha rápida oficial con Tipo, Familia culinaria, Raciones, Tiempo y Dificultad.
-- Alta, edición y eliminación.
-- Exportación e importación JSON.
-- Guardado como PDF mediante impresión.
+Para actualizar GitHub basta con sustituir `data.js`.
