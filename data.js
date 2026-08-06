@@ -882,8 +882,8 @@ window.RECIPES = [
 ];
 
 (function () {
-  const migrationKey = "rtm_migration_sprint_2_2_20";
-  const storageKey = "rtm_v1_records";
+  const migrationKey = "rtm_migration_sprint_2_2_20_compatible";
+  const storageKey = "rtm_v01_records";
   try {
     if (!localStorage.getItem(migrationKey)) {
       localStorage.setItem(storageKey, JSON.stringify(window.RECIPES));
