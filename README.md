@@ -1,26 +1,21 @@
-# Recetario Toni Merino v0.2.2
+# Recetario Toni Merino v0.2.3
 
-Versión de contenido con **20 fichas reales** publicadas.
+Versión correctiva y completa con **20 fichas**.
 
 ## Contenido
 
 - 17 recetas.
 - 3 técnicas culinarias.
-- Buscador por título, familia, etiqueta e ingrediente.
-- Filtros de Recetas y Técnicas.
+- Buscador por título, familia, etiquetas e ingredientes.
+- Filtros de Recetas y Técnicas culinarias.
 - Alta, edición y eliminación de fichas.
 - Exportación e importación de copia de seguridad.
-- Guardado de fichas como PDF mediante impresión.
+- Guardado como PDF mediante impresión.
 
-## Archivos principales
+## Correcciones de esta versión
 
-- `index.html`: interfaz principal y número de versión visible.
-- `data.js`: catálogo inicial de fichas.
-- `app.js`: funcionamiento de la aplicación.
-- `styles.css`: estilos visuales.
-- `manifest.webmanifest`: configuración de la aplicación instalable.
-- `sw.js`: caché de la aplicación.
-
-## Actualización desde la versión anterior
-
-Sustituye en GitHub todos los archivos incluidos en este paquete. Elimina el archivo duplicado `datos.js`; la aplicación utiliza exclusivamente `data.js`.
+- Actualización real del catálogo de 8 a 20 fichas.
+- Migración compatible con la clave `rtm_v01_records` utilizada por la aplicación.
+- Número de versión visible actualizado a 0.2.3.
+- Parámetros de versión en CSS y JavaScript para evitar que el navegador reutilice archivos antiguos.
+- Eliminación del archivo duplicado `datos.js` de la estructura oficial.
