@@ -1,14 +1,26 @@
-# Recetario Toni Merino v0.2
+# Recetario Toni Merino v0.2.2
 
-Versión de contenido con 8 fichas reales:
+Versión de contenido con **20 fichas reales** publicadas.
 
-- Escudella i carn d'olla – Iaia Pilar
-- Bisqué de langostinos (Thermomix)
-- Caldo base para arroces (pendiente de completar)
-- Magdalenas caseras de Puente Genil
-- Helado de vainilla y nueces (Thermomix)
-- Marca de calamar para arroces y fideuás
-- Leche de almendras (Thermomix)
-- Adobo tradicional para costillas y cinta de lomo
+## Contenido
 
-Para actualizar GitHub basta con sustituir `data.js`.
+- 17 recetas.
+- 3 técnicas culinarias.
+- Buscador por título, familia, etiqueta e ingrediente.
+- Filtros de Recetas y Técnicas.
+- Alta, edición y eliminación de fichas.
+- Exportación e importación de copia de seguridad.
+- Guardado de fichas como PDF mediante impresión.
+
+## Archivos principales
+
+- `index.html`: interfaz principal y número de versión visible.
+- `data.js`: catálogo inicial de fichas.
+- `app.js`: funcionamiento de la aplicación.
+- `styles.css`: estilos visuales.
+- `manifest.webmanifest`: configuración de la aplicación instalable.
+- `sw.js`: caché de la aplicación.
+
+## Actualización desde la versión anterior
+
+Sustituye en GitHub todos los archivos incluidos en este paquete. Elimina el archivo duplicado `datos.js`; la aplicación utiliza exclusivamente `data.js`.
