@@ -1,20 +1,24 @@
-# Recetario Toni Merino v1.0
+# Recetario Toni Merino v0.1
 
-Aplicación web instalable (PWA) y sin dependencias externas.
+## Publicación en GitHub Pages
+1. Sube **todos estos archivos** a la raíz del repositorio.
+2. Ve a **Ajustes → Páginas**.
+3. En **Fuente**, elige **Implementar desde una rama**.
+4. En **Rama**, selecciona **principal** y **/(raíz)**.
+5. Pulsa **Guardar**.
 
-## Incluye
+## Archivos obligatorios
+- index.html
+- styles.css
+- data.js
+- app.js
+
+## Funciones incluidas
 - Catálogo alfabético.
-- Buscador por título, familia, etiquetas e ingredientes.
-- Filtro Recetas / Técnicas culinarias.
-- Distinción visual por color.
-- Ficha rápida oficial: Tipo, Familia culinaria, Raciones, Tiempo y Dificultad.
-- Alta, edición y eliminación de fichas.
+- Buscador.
+- Filtro Recetas / Técnicas.
+- Color diferenciado para técnicas.
+- Ficha rápida oficial con Tipo, Familia culinaria, Raciones, Tiempo y Dificultad.
+- Alta, edición y eliminación.
 - Exportación e importación JSON.
-- Impresión o guardado como PDF.
-- Funcionamiento sin conexión después de la primera carga.
-
-## Ejecutar en local
-```bash
-python3 -m http.server 8000
-```
-Después abrir http://localhost:8000
+- Guardado como PDF mediante impresión.
