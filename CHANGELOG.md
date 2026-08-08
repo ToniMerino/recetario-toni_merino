@@ -1,3 +1,11 @@
+# Historial de cambios
+
+## v1.4.1 · Ajuste final Sprint 5.0 · Favoritos visibles
+- Las fichas favoritas muestran una estrella visible directamente en la tarjeta del catálogo.
+- El control para marcar o desmarcar Favorita se mueve a la cabecera de la ficha detallada.
+- Se elimina el control duplicado de Favorita del final de la ficha.
+- Se mantiene sin cambios la persistencia local, el catálogo de 30 fichas y el modelo normalizado.
+
 # Registro de cambios
 
 ## v1.4.0 · Sprint 5.0 · Favoritos

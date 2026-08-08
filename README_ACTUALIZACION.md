@@ -1,21 +1,17 @@
-# Actualización RTM v1.4.0 · Sprint 3.0
+# Actualización RTM v1.4.1 · Ajuste final Sprint 5.0
 
 ## Objetivo
-Actualizar de v1.1.0 a v1.4.0 incorporando migración segura de datos locales.
+Mejorar la visibilidad y accesibilidad de Favoritos sin cambiar el modelo ni las recetas.
+
+## Cambios
+- Estrella visible en las tarjetas favoritas del catálogo.
+- Botón Favorita situado en la cabecera de la ficha detallada.
+- Se conserva la persistencia local existente.
 
 ## Instalación
-1. Copiar el contenido de este paquete sobre la carpeta local `recetario-toni_merino`.
+1. Copiar el contenido del paquete sobre la carpeta local `recetario-toni_merino`.
 2. Reemplazar los archivos existentes.
-3. Abrir GitHub Desktop y revisar los cambios.
-4. Commit: `Publicar RTM v1.4.0 - Sprint 3`.
+3. Revisar los cambios en GitHub Desktop.
+4. Commit: `RTM v1.4.1 - Ajuste favoritos Sprint 5.0`.
 5. Push origin.
-6. Esperar al despliegue de GitHub Pages y abrir la aplicación normalmente.
-
-## Validación
-- Debe mostrarse Versión 1.3.0.
-- Deben seguir apareciendo 30 fichas.
-- No debe ser necesario borrar `localStorage`.
-- Las fichas locales creadas o editadas se conservan.
-
-## Nota de migración inicial
-La primera ejecución de v1.4.0 migra el almacenamiento heredado de v1.1.0 y crea una instantánea del catálogo base para que las siguientes actualizaciones puedan distinguir entre datos base y cambios personales.
+6. Validar en GitHub Pages: versión 1.4.1, 30 fichas y favoritos persistentes.
