@@ -1,10 +1,10 @@
-# Recetario Toni Merino v1.0.0
+# Recetario Toni Merino v1.1.0
 
-Primera versión estable del proyecto. Mantiene el modelo de ficha ya acordado y consolida la publicación mediante GitHub Desktop.
+Versión estable del Sprint 2.0. Mantiene el modelo funcional validado en v1.0.0 y amplía el catálogo sin modificar la arquitectura de la aplicación.
 
 ## Contenido
 
-- 20 fichas reales.
+- 30 fichas verificadas.
 - Recetas y técnicas culinarias diferenciadas visualmente.
 - Buscador por título, familia, procedencia, autor, estado, ingredientes y etiquetas.
 - Ficha rápida: Tipo, Familia culinaria, Raciones, Tiempo y Dificultad.
@@ -12,10 +12,6 @@ Primera versión estable del proyecto. Mantiene el modelo de ficha ya acordado y
 - Exportación e importación de copias JSON.
 - Impresión o guardado de cada ficha como PDF.
 
-## Estabilización
+## Sprint 2.0
 
-- Versión visible 1.0.0.
-- Recursos con parámetro de versión para evitar archivos antiguos.
-- Limpieza automática de service workers y cachés RTM anteriores.
-- `data.js` mantiene la clave de almacenamiento compatible `rtm_v01_records`.
-- No se modifica el modelo funcional de receta.
+Se incorporan 10 fichas nuevas, verificadas frente al catálogo previo para evitar duplicados. La versión visible queda actualizada a 1.1.0.

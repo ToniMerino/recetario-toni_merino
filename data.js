@@ -1,4 +1,4 @@
-// Recetario Toni Merino · Versión 1.0.0 · 20 fichas
+// Recetario Toni Merino · Versión 1.1.0 · 30 fichas verificadas
 window.RECIPES = [
   {
     "id": "rtm-0001",
@@ -878,18 +878,483 @@ window.RECIPES = [
       "CocinaCatalana"
     ],
     "emoji": "🍖"
+  },
+  {
+    "id": "rtm-0021",
+    "record_type": "recipe",
+    "title": "Coca de verduras (Thermomix)",
+    "origin": "Vorwerk / Thermomix · Libro · Transcripción",
+    "author": "",
+    "type": "Coca salada",
+    "family": "Panadería",
+    "servings": "6 raciones",
+    "time": "22 min",
+    "difficulty": "Fácil",
+    "status": "Excelente",
+    "ingredients": [
+      "100 g de pimiento rojo, en trozos.",
+      "100 g de pimiento verde, en trozos.",
+      "100 g de cebolla, en trozos.",
+      "100 g de calabacín con piel, en trozos.",
+      "100 g de aceite de oliva.",
+      "2 cucharaditas de sal.",
+      "1 cucharada de pimentón.",
+      "50 g de aceite de oliva virgen extra.",
+      "100 g de agua.",
+      "50 g de manteca de cerdo.",
+      "20 g de levadura prensada fresca de panadería.",
+      "300 g de harina de fuerza.",
+      "1 cucharadita de sal.",
+      "1 pellizco de azúcar."
+    ],
+    "steps": [
+      "Precalienta el horno a 200 °C.",
+      "Pon en el vaso el pimiento rojo y verde, la cebolla, el calabacín, el aceite, la sal y el pimentón. Programa 3 s · velocidad 4. Retira y reserva.",
+      "Sin lavar el vaso, pon el aceite, el agua y la manteca. Programa 1 min · 37 °C · velocidad 2.",
+      "Incorpora la levadura, la harina, la sal y el azúcar. Mezcla 30 s · velocidad 6.",
+      "Retira la masa y extiéndela muy fina sobre una bandeja de horno bien engrasada. Déjala reposar unos minutos.",
+      "Cubre con las verduras reservadas y hornea durante 20 min aproximadamente."
+    ],
+    "presentation": "Sirve cortada en porciones, recién hecha o templada.",
+    "tips": "Para una versión vegetariana, puede sustituirse la manteca por aceite de oliva.",
+    "notes": "Hecha varias veces. Queda excelente.",
+    "tags": [
+      "Vorwerk",
+      "Thermomix",
+      "CocaSalada",
+      "Panaderia",
+      "Verduras",
+      "Horno",
+      "RecetaProbada",
+      "Excelente"
+    ],
+    "emoji": "🥧"
+  },
+  {
+    "id": "rtm-0022",
+    "record_type": "recipe",
+    "title": "Crema fría de melón (Thermomix)",
+    "origin": "Cristina Ferrer · Página web · Adaptación probada",
+    "author": "Cristina Ferrer",
+    "type": "Entrante",
+    "family": "Sopas y cremas",
+    "servings": "6 personas",
+    "time": "5 min + frío",
+    "difficulty": "Muy fácil",
+    "status": "Probada",
+    "ingredients": [
+      "1 kg de melón maduro, en trozos.",
+      "2 yogures naturales o griegos.",
+      "6-7 hojas de menta fresca.",
+      "Zumo de 1/2 limón.",
+      "1 pellizco de sal.",
+      "1 pellizco de pimienta negra.",
+      "2 cucharaditas de azúcar, aproximadamente, según el dulzor del melón."
+    ],
+    "steps": [
+      "Pon en el vaso el melón y la menta. Tritura 1 min · velocidad 10.",
+      "Añade los yogures, el zumo de limón, la sal, la pimienta y el azúcar, ajustándolo al dulzor del melón.",
+      "Mezcla 30 s · velocidad 4.",
+      "Reserva en el frigorífico hasta que esté bien fría."
+    ],
+    "presentation": "Sirve muy fría.",
+    "tips": "Ajusta el azúcar al dulzor de la fruta. Prepararla con antelación mejora el resultado.",
+    "notes": "Hecha y muy buena. Toni añadió aproximadamente 2 cucharaditas de azúcar.",
+    "tags": [
+      "Thermomix",
+      "SopasYCremas",
+      "CremaFria",
+      "Melon",
+      "Verano",
+      "Entrante",
+      "RecetaProbada",
+      "MuyBuena"
+    ],
+    "emoji": "🍈"
+  },
+  {
+    "id": "rtm-0023",
+    "record_type": "recipe",
+    "title": "Risotto con setas (Thermomix)",
+    "origin": "Velocidad Cuchara · Página web · Transcripción",
+    "author": "Rosa Ardá",
+    "type": "Plato principal",
+    "family": "Arroces",
+    "servings": "6 personas",
+    "time": "40 min",
+    "difficulty": "Fácil",
+    "status": "Pendiente de hacer",
+    "ingredients": [
+      "50 g de queso parmesano.",
+      "200 g de cebolla, en cuartos.",
+      "200 g de setas al gusto, en trozos.",
+      "40 g de aceite de oliva virgen extra.",
+      "350 g de arroz de grano corto para risotto o arroz bomba.",
+      "200 g de cerveza clásica o, en su defecto, vino o caldo.",
+      "650 g de caldo de verduras, muy caliente.",
+      "1 cucharadita de sal.",
+      "10 g de mantequilla con sal.",
+      "Pimienta negra molida, opcional."
+    ],
+    "steps": [
+      "Ralla el parmesano 10 s · velocidad progresiva 5-10. Retira y reserva.",
+      "Pon la cebolla en el vaso y trocea 5 s · velocidad 4. Añade la mitad de las setas y el aceite y cocina 10 min · 120 °C o Varoma · velocidad 1.",
+      "Incorpora el arroz y programa 3 min · 120 °C o Varoma · giro inverso · velocidad cuchara.",
+      "Vierte la cerveza o el vino y, sin cubilete, programa 5 min · 120 °C o Varoma · giro inverso · velocidad cuchara.",
+      "Añade el caldo muy caliente y la sal. Programa 8 min · 100 °C · giro inverso · velocidad cuchara.",
+      "Incorpora el resto de las setas y programa 5 min · 100 °C · giro inverso · velocidad cuchara.",
+      "Vuelca en una fuente, reparte la mantequilla y espolvorea el parmesano."
+    ],
+    "presentation": "Sirve recién hecho.",
+    "tips": "El caldo debe estar muy caliente.",
+    "notes": "",
+    "tags": [
+      "VelocidadCuchara",
+      "RosaArda",
+      "Arroces",
+      "Risotto",
+      "Setas",
+      "Thermomix",
+      "PendienteDeHacer"
+    ],
+    "emoji": "🍚"
+  },
+  {
+    "id": "rtm-0024",
+    "record_type": "recipe",
+    "title": "Capipota de Ada Parellada",
+    "origin": "Página web · Transcripción",
+    "author": "Ada Parellada",
+    "type": "Plato tradicional",
+    "family": "Carne",
+    "servings": "No indicadas",
+    "time": "40 min de cocción final",
+    "difficulty": "Fácil",
+    "status": "Pendiente de hacer",
+    "ingredients": [
+      "1 kg de capipota cocido.",
+      "150 g de tocino.",
+      "2 cebollas.",
+      "5 tomates de rama.",
+      "3 dientes de ajo.",
+      "1 guindilla.",
+      "60 g de jamón en dados.",
+      "1/2 cucharada de pimentón dulce.",
+      "1 vaso de brandy.",
+      "500 ml de caldo de pollo o agua.",
+      "200 g de judías hervidas.",
+      "Aceite.",
+      "Sal.",
+      "Avellanas tostadas, un puñado.",
+      "Perejil.",
+      "2 galletas."
+    ],
+    "steps": [
+      "Pon el tocino en una cazuela con aceite y deja que sude hasta dorarse.",
+      "Añade la cebolla y cocina muy lentamente con sal.",
+      "Incorpora los tomates rallados y cocina hasta obtener un sofrito de color de mermelada.",
+      "Añade ajo, guindilla, jamón, capipota, pimentón y brandy.",
+      "Deja evaporar el brandy y cubre con caldo o agua.",
+      "Prepara una picada con avellanas, perejil, galletas y sal.",
+      "Añade la picada y cocina unos 40 min.",
+      "Incorpora las judías y ajusta de sal."
+    ],
+    "presentation": "Sirve caliente.",
+    "tips": "Cocina el sofrito muy lentamente.",
+    "notes": "",
+    "tags": [
+      "AdaParellada",
+      "Capipota",
+      "PlatoTradicional",
+      "Carne",
+      "CocinaCatalana",
+      "Cazuela",
+      "PendienteDeHacer"
+    ],
+    "emoji": "🥘"
+  },
+  {
+    "id": "rtm-0025",
+    "record_type": "recipe",
+    "title": "Mayonesa casera y variaciones sencillas",
+    "origin": "Directo al Paladar · Página web · Transcripción",
+    "author": "Pakus",
+    "type": "Salsa",
+    "family": "Técnicas y bases",
+    "servings": "No indicado",
+    "time": "No indicado",
+    "difficulty": "Fácil",
+    "status": "Probada",
+    "ingredients": [
+      "1 huevo M, a temperatura ambiente.",
+      "4 g de sal.",
+      "10 g de vinagre o zumo de limón, a temperatura ambiente.",
+      "200 ml de aceite vegetal, de oliva o mezcla, a temperatura ambiente."
+    ],
+    "steps": [
+      "Casca el huevo en un recipiente aparte y pásalo al vaso de la batidora.",
+      "Añade la sal, el vinagre o limón y la mitad del aceite.",
+      "Coloca la batidora tocando el fondo y bate a potencia baja sin moverla hasta que emulsione.",
+      "Incorpora el resto del aceite y levanta la batidora mientras sigues batiendo hasta obtener el espesor deseado."
+    ],
+    "presentation": "Sirve como salsa o acompañamiento.",
+    "tips": "Mantén los ingredientes a temperatura ambiente y extrema la higiene con el huevo crudo.",
+    "notes": "Variantes documentadas: curry, japonesa, especias, wasabi, ajonesa, ajo negro, lima y picante con miel y Tabasco.",
+    "tags": [
+      "PaginaWeb",
+      "Salsa",
+      "TecnicasYBases",
+      "Mayonesa",
+      "Batidora",
+      "Probada"
+    ],
+    "emoji": "🥣"
+  },
+  {
+    "id": "rtm-0026",
+    "record_type": "recipe",
+    "title": "Kebab casero en brocheta con salsa de yogur (Air fryer)",
+    "origin": "Jozichef (redes sociales) · Adaptación con salsa de yogur",
+    "author": "Jozichef",
+    "type": "Plato principal",
+    "family": "Carne",
+    "servings": "No indicadas",
+    "time": "15 min de cocción + preparación",
+    "difficulty": "Fácil",
+    "status": "Pendiente de hacer",
+    "ingredients": [
+      "4 tortillas de trigo.",
+      "500 g de carne picada mixta (ternera y cerdo).",
+      "Queso rallado para fundir, cantidad no indicada.",
+      "Sal.",
+      "Pimienta negra.",
+      "Pimentón.",
+      "Orégano.",
+      "Aceite de oliva en espray.",
+      "Palillos de brocheta.",
+      "1 yogur griego natural (125 g).",
+      "1 diente de ajo pequeño, rallado.",
+      "1 cucharada de zumo de limón.",
+      "1 cucharada de aceite de oliva virgen extra.",
+      "1 cucharada de perejil o menta, picados."
+    ],
+    "steps": [
+      "Mezcla la carne con sal, pimienta, pimentón y orégano.",
+      "Da forma rectangular a las tortillas.",
+      "Extiende sobre cada tortilla una capa fina de carne y espolvorea queso.",
+      "Superpone las tortillas hasta formar una torre.",
+      "Corta la torre en 4 tiras iguales.",
+      "Superpone las tiras formando un bloque.",
+      "Atraviesa con palillos de brocheta y corta entre ellos.",
+      "Rocía con aceite.",
+      "Cocina en air fryer a 195 °C durante 15 min, comprobando que la carne esté completamente cocinada.",
+      "Mezcla los ingredientes de la salsa de yogur y reserva en frío."
+    ],
+    "presentation": "Sirve las brochetas recién hechas con la salsa aparte.",
+    "tips": "El tiempo puede variar según la air fryer. Comprueba especialmente el centro.",
+    "notes": "",
+    "tags": [
+      "Jozichef",
+      "Carne",
+      "Kebab",
+      "Brochetas",
+      "AirFryer",
+      "Queso",
+      "SalsaDeYogur",
+      "PendienteDeHacer"
+    ],
+    "emoji": "🥙"
+  },
+  {
+    "id": "rtm-0027",
+    "record_type": "recipe",
+    "title": "Bunyols de bacallà",
+    "origin": "Arnau M. (@arnaumchef9) · Instagram · Transcripció d’imatges",
+    "author": "Arnau M.",
+    "type": "Aperitiu",
+    "family": "Pescado",
+    "servings": "No indicadas",
+    "time": "No indicado",
+    "difficulty": "Fácil",
+    "status": "Pendiente de hacer",
+    "ingredients": [
+      "250 g de bacalao desalado y desmigado.",
+      "250 ml de leche.",
+      "80 g de mantequilla.",
+      "150 g de harina floja.",
+      "3 huevos medianos.",
+      "2 dientes de ajo.",
+      "Perejil fresco picado.",
+      "1 cucharadita de levadura química.",
+      "Pimienta negra.",
+      "Ralladura de limón.",
+      "Aceite suave, para freír."
+    ],
+    "steps": [
+      "Funde la mantequilla en una cazuela.",
+      "Añade la leche y lleva a ebullición.",
+      "Incorpora la harina de golpe y remueve enérgicamente.",
+      "Trabaja la masa hasta que quede homogénea y compacta.",
+      "Retira del fuego y añade los huevos uno a uno.",
+      "Añade el bacalao, ajo y perejil.",
+      "Incorpora ralladura de limón, levadura y pimienta.",
+      "Forma los buñuelos con dos cucharas y fríelos en aceite caliente.",
+      "Gíralos para dorarlos por todos los lados y escurre sobre papel absorbente."
+    ],
+    "presentation": "Sirve recién hechos con ralladura de limón.",
+    "tips": "Incorpora los huevos fuera del fuego y con la masa templada.",
+    "notes": "",
+    "tags": [
+      "Bunyols",
+      "Bacalla",
+      "Pescado",
+      "CocinaCatalana",
+      "Aperitivo",
+      "Fritos",
+      "Instagram",
+      "PendienteDeHacer"
+    ],
+    "emoji": "🐟"
+  },
+  {
+    "id": "rtm-0028",
+    "record_type": "recipe",
+    "title": "Pollo en pepitoria",
+    "origin": "Fotografía (cocinaconnoelia) · Adaptación",
+    "author": "cocinaconnoelia",
+    "type": "Plato principal",
+    "family": "Carne",
+    "servings": "No indicado",
+    "time": "1 h 15 min aprox.",
+    "difficulty": "Media",
+    "status": "Pendiente de hacer",
+    "ingredients": [
+      "1 pollo troceado.",
+      "30 g de almendras tostadas.",
+      "200 ml de vino blanco.",
+      "200 ml de caldo de pollo, preferiblemente casero.",
+      "2 huevos.",
+      "2 dientes de ajo.",
+      "1 rebanada de pan.",
+      "1 cebolla.",
+      "Perejil fresco.",
+      "Hebras de azafrán, ligeramente tostadas.",
+      "Manteca de cerdo o aceite de oliva.",
+      "Sal.",
+      "Pimienta."
+    ],
+    "steps": [
+      "Cuece los huevos 10 min desde que hierva el agua. Enfría, pela y separa yemas y claras.",
+      "Salpimienta el pollo y dóralo. Retira y reserva.",
+      "Cocina la cebolla a fuego bajo 20-25 min hasta tierna y dorada.",
+      "Tuesta el pan con aceite.",
+      "Haz un majado con ajo, sal, perejil, almendras, yemas, azafrán y pan frito.",
+      "Devuelve el pollo, incorpora el majado y cocina 1 min.",
+      "Añade el vino y hierve 2-3 min.",
+      "Añade el caldo, tapa parcialmente y cuece a fuego bajo 40-45 min."
+    ],
+    "presentation": "Sirve con salsa ligada, claras troceadas, almendras y perejil.",
+    "tips": "Deja reposar 30 min antes de servir; ajusta con caldo si espesa demasiado.",
+    "notes": "",
+    "tags": [
+      "PlatoPrincipal",
+      "Carne",
+      "Pollo",
+      "Pepitoria",
+      "CocinaTradicional",
+      "Cazuela",
+      "Almendras",
+      "Azafran",
+      "PendienteDeHacer"
+    ],
+    "emoji": "🍗"
+  },
+  {
+    "id": "rtm-0029",
+    "record_type": "recipe",
+    "title": "Bacalao dorado o Bacalhau à Brás",
+    "origin": "Velocidad Cuchara · Página web · Transcripción",
+    "author": "Rosa Ardá",
+    "type": "Entrante / primer plato",
+    "family": "Pescado",
+    "servings": "6 personas",
+    "time": "35 min",
+    "difficulty": "Fácil",
+    "status": "Pendiente de hacer",
+    "ingredients": [
+      "400-500 g de bacalao desalado desmigado.",
+      "400 g de cebolla en juliana.",
+      "1 diente de ajo picado.",
+      "100 ml de aceite de oliva virgen extra.",
+      "5-6 huevos medianos.",
+      "40 ml de nata, opcional.",
+      "200 g de patatas paja.",
+      "80 g de aceitunas negras.",
+      "Perejil picado."
+    ],
+    "steps": [
+      "Pon la mariposa en el vaso, añade cebolla, ajo y aceite y cocina 16 min · 120 °C o Varoma · velocidad 1.",
+      "Añade el bacalao desalado y cocina 3 min · Varoma · giro inverso · velocidad 1.",
+      "Continúa la elaboración con huevos, patatas paja y acabado según la receta de origen."
+    ],
+    "presentation": "Termina con aceitunas negras y perejil.",
+    "tips": "La fuente indica que no añade sal inicialmente por la sal del bacalao y las patatas; prueba antes de ajustar.",
+    "notes": "",
+    "tags": [
+      "VelocidadCuchara",
+      "RosaArda",
+      "Bacalao",
+      "CocinaPortuguesa",
+      "Thermomix",
+      "PendienteDeHacer"
+    ],
+    "emoji": "🐟"
+  },
+  {
+    "id": "rtm-0030",
+    "record_type": "recipe",
+    "title": "Yogur de avellana (Thermomix)",
+    "origin": "Instagram (@twogaypapas) · Transcripción",
+    "author": "@twogaypapas",
+    "type": "Desayuno / merienda",
+    "family": "Lácteos y fermentados",
+    "servings": "No indicado",
+    "time": "6 min + 10-12 h + refrigeración",
+    "difficulty": "Fácil",
+    "status": "Pendiente de hacer",
+    "ingredients": [
+      "1,5 l de leche fresca.",
+      "180 g de yogur natural, elaborado solo con leche y fermentos.",
+      "Azúcar o edulcorante al gusto.",
+      "100 g de avellanas tostadas, sin sal y sin piel.",
+      "Semillas de chía."
+    ],
+    "steps": [
+      "Pon 50 g de avellanas en el vaso y tritura a vel. 7-8, repitiendo varias veces y bajando los restos de las paredes, hasta conseguir una pasta fluida.",
+      "Añade los otros 50 g de avellanas y tritura 4 s · vel. 4 para dejar pequeños trozos crujientes.",
+      "Añade la leche, el yogur natural y el azúcar o edulcorante al gusto.",
+      "Programa 6 min · 50 °C · vel. 3.",
+      "Mientras se calienta, pon 1/2 cucharadita de semillas de chía en el fondo de cada vasito de cristal.",
+      "Precalienta el horno a 50 °C, con calor arriba y abajo.",
+      "Reparte la mezcla en los vasitos y cúbrelos con un paño limpio.",
+      "Apaga el horno, introduce los vasitos y déjalos fermentar entre 10 y 12 h sin abrir el horno.",
+      "Al día siguiente, tapa los vasitos y pásalos a la nevera para que cojan cuerpo."
+    ],
+    "presentation": "Sirve el yogur frío después de su refrigeración.",
+    "tips": "Utiliza un yogur natural que contenga únicamente leche y fermentos. Para 1 l de leche, la fuente indica usar 120 g de yogur. Durante la fermentación, mantén el horno apagado y no lo abras. Conservación no especificada; pendiente de confirmar.",
+    "notes": "",
+    "tags": [
+      "Desayuno",
+      "LacteosYFermentados",
+      "Yogur",
+      "Avellana",
+      "Thermomix",
+      "Fermentacion",
+      "Chia",
+      "Instagram",
+      "PendienteDeHacer",
+      "Vegetariana"
+    ],
+    "emoji": "🥛"
   }
 ];
-
-(function () {
-  const migrationKey = "rtm_migration_v1_0_0_20";
-  const storageKey = "rtm_v01_records";
-  try {
-    if (!localStorage.getItem(migrationKey)) {
-      localStorage.setItem(storageKey, JSON.stringify(window.RECIPES));
-      localStorage.setItem(migrationKey, "done");
-    }
-  } catch (error) {
-    console.warn("No se pudo actualizar el almacenamiento local:", error);
-  }
-})();
