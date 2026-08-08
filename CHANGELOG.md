@@ -1,3 +1,12 @@
+# Changelog
+
+## v1.2.0 · Sprint 3.0
+- Migración automática del catálogo al publicar nuevas versiones.
+- Conservación de fichas creadas o modificadas desde la aplicación.
+- En futuras actualizaciones, conservación de eliminaciones locales mediante comparación con la instantánea del catálogo base anterior.
+- Se elimina la necesidad de borrar manualmente `localStorage` para recibir nuevas fichas.
+- Sin cambios en el modelo de ficha, diseño ni catálogo: se mantienen 30 fichas.
+
 # Registro de cambios
 
 ## v1.1.0 · Sprint 2.0

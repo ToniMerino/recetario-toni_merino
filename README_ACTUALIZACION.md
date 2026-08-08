@@ -1,17 +1,21 @@
-# Actualización a RTM v1.1.0
+# Actualización RTM v1.2.0 · Sprint 3.0
 
-1. Descomprime el ZIP.
-2. Copia los 10 archivos de la carpeta `RTM-v1.1.0` sobre la carpeta local `recetario-toni_merino`.
-3. Acepta reemplazar los archivos existentes. No borres la carpeta `.git`.
-4. Abre GitHub Desktop y comprueba que detecta los cambios.
-5. En Summary escribe: `Publicar RTM v1.1.0 - Sprint 2.0`.
-6. Pulsa `Commit to main`.
-7. Pulsa `Push origin`.
-8. Espera al despliegue de GitHub Pages.
+## Objetivo
+Actualizar de v1.1.0 a v1.2.0 incorporando migración segura de datos locales.
+
+## Instalación
+1. Copiar el contenido de este paquete sobre la carpeta local `recetario-toni_merino`.
+2. Reemplazar los archivos existentes.
+3. Abrir GitHub Desktop y revisar los cambios.
+4. Commit: `Publicar RTM v1.2.0 - Sprint 3`.
+5. Push origin.
+6. Esperar al despliegue de GitHub Pages y abrir la aplicación normalmente.
 
 ## Validación
+- Debe mostrarse Versión 1.2.0.
+- Deben seguir apareciendo 30 fichas.
+- No debe ser necesario borrar `localStorage`.
+- Las fichas locales creadas o editadas se conservan.
 
-- La cabecera debe mostrar `Versión 1.1.0`.
-- El catálogo debe indicar `30 fichas`.
-- Comprueba que abren varias fichas, especialmente una de las nuevas.
-- Comprueba buscador y filtros.
+## Nota de migración inicial
+La primera ejecución de v1.2.0 migra el almacenamiento heredado de v1.1.0 y crea una instantánea del catálogo base para que las siguientes actualizaciones puedan distinguir entre datos base y cambios personales.

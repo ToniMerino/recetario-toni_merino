@@ -1,5 +1,47 @@
-const STORAGE_KEY="rtm_v01_records";let records=loadRecords(),activeFilter="all";const $=id=>document.getElementById(id);
-function loadRecords(){try{const saved=JSON.parse(localStorage.getItem(STORAGE_KEY));if(Array.isArray(saved)&&saved.length)return saved}catch(e){}return JSON.parse(JSON.stringify(window.RECIPES||[]))}
+const STORAGE_KEY="rtm_v01_records";
+const BASE_SNAPSHOT_KEY="rtm_base_snapshot";
+const DATA_VERSION_KEY="rtm_data_version";
+const CURRENT_DATA_VERSION=window.RTM_DATA_VERSION||"1.2.0";
+let records=loadRecords(),activeFilter="all";const $=id=>document.getElementById(id);
+function clone(v){return JSON.parse(JSON.stringify(v))}
+function sameRecord(a,b){return JSON.stringify(a)===JSON.stringify(b)}
+function loadRecords(){
+  const base=clone(window.RECIPES||[]);
+  let saved=null,previousBase=null;
+  try{saved=JSON.parse(localStorage.getItem(STORAGE_KEY))}catch(e){}
+  try{previousBase=JSON.parse(localStorage.getItem(BASE_SNAPSHOT_KEY))}catch(e){}
+  if(!Array.isArray(saved)||!saved.length){
+    localStorage.setItem(BASE_SNAPSHOT_KEY,JSON.stringify(base));
+    localStorage.setItem(DATA_VERSION_KEY,CURRENT_DATA_VERSION);
+    return base;
+  }
+  // Primera migración desde las versiones 1.0/1.1: conserva las fichas locales
+  // y añade automáticamente las nuevas fichas del catálogo base.
+  if(!Array.isArray(previousBase)){
+    const byId=new Map(base.map(r=>[r.id,r]));
+    saved.forEach(r=>byId.set(r.id,r));
+    const merged=[...byId.values()];
+    localStorage.setItem(STORAGE_KEY,JSON.stringify(merged));
+    localStorage.setItem(BASE_SNAPSHOT_KEY,JSON.stringify(base));
+    localStorage.setItem(DATA_VERSION_KEY,CURRENT_DATA_VERSION);
+    return merged;
+  }
+  // En actualizaciones posteriores solo preserva cambios realmente hechos por el usuario.
+  const savedById=new Map(saved.map(r=>[r.id,r]));
+  const oldBaseById=new Map(previousBase.map(r=>[r.id,r]));
+  const deletedIds=new Set(previousBase.filter(r=>!savedById.has(r.id)).map(r=>r.id));
+  const localOverrides=new Map();
+  saved.forEach(r=>{
+    const old=oldBaseById.get(r.id);
+    if(!old||!sameRecord(r,old)) localOverrides.set(r.id,r);
+  });
+  const merged=base.filter(r=>!deletedIds.has(r.id)).map(r=>localOverrides.get(r.id)||r);
+  localOverrides.forEach((r,id)=>{if(!base.some(b=>b.id===id))merged.push(r)});
+  localStorage.setItem(STORAGE_KEY,JSON.stringify(merged));
+  localStorage.setItem(BASE_SNAPSHOT_KEY,JSON.stringify(base));
+  localStorage.setItem(DATA_VERSION_KEY,CURRENT_DATA_VERSION);
+  return merged;
+}
 function saveRecords(){localStorage.setItem(STORAGE_KEY,JSON.stringify(records))}
 function esc(v=""){return String(v).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]))}
 function show(view){["catalogView","detailView","formView"].forEach(id=>$(id).classList.toggle("hidden",id!==view));window.scrollTo({top:0,behavior:"smooth"})}
@@ -12,7 +54,7 @@ function editRecord(id){const r=records.find(x=>x.id===id);if(!r)return;const f=
 function deleteRecord(id){if(!confirm("¿Eliminar esta ficha?"))return;records=records.filter(r=>r.id!==id);saveRecords();renderCatalog();show("catalogView")}
 $("recipeForm").addEventListener("submit",e=>{e.preventDefault();const o=Object.fromEntries(new FormData(e.target).entries());const data={record_type:o.record_type,title:o.title.trim(),origin:o.origin.trim(),author:o.author.trim(),type:o.type.trim(),family:o.family.trim(),servings:o.servings.trim(),time:o.time.trim(),difficulty:o.difficulty.trim(),status:o.status.trim(),ingredients:o.ingredients.split(/\n+/).map(x=>x.trim()).filter(Boolean),steps:o.steps.split(/\n+/).map(x=>x.replace(/^\d+[\.\-\)]\s*/,"").trim()).filter(Boolean),presentation:o.presentation.trim(),tips:o.tips.trim(),notes:o.notes.trim(),tags:o.tags.split(",").map(x=>x.trim().replace(/^#/,"")).filter(Boolean),emoji:o.record_type==="technique"?"🥣":"🍽️"};if(o.id){const i=records.findIndex(r=>r.id===o.id);records[i]={...records[i],...data}}else{data.id=`rtm-${Date.now()}`;records.push(data)}saveRecords();renderCatalog();show("catalogView")});
 $("searchInput").addEventListener("input",renderCatalog);document.querySelector(".chips").addEventListener("click",e=>{if(!e.target.matches(".chip"))return;activeFilter=e.target.dataset.filter;document.querySelectorAll(".chip").forEach(c=>c.classList.toggle("active",c===e.target));renderCatalog()});$("addBtn").addEventListener("click",()=>{emptyForm();show("formView")});$("backBtn").addEventListener("click",()=>show("catalogView"));$("cancelBtn").addEventListener("click",()=>show("catalogView"));$("exportBtn").addEventListener("click",()=>{const blob=new Blob([JSON.stringify(records,null,2)],{type:"application/json"});const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="recetario_toni_merino.json";a.click();URL.revokeObjectURL(a.href)});$("importInput").addEventListener("change",async e=>{const file=e.target.files[0];if(!file)return;try{const data=JSON.parse(await file.text());if(!Array.isArray(data))throw new Error();records=data;saveRecords();renderCatalog();show("catalogView")}catch(err){alert("El archivo no es una copia válida.")}});
-// Estabilización v1.0.0: elimina service workers y cachés antiguos que puedan servir versiones obsoletas.
+// Estabilización: elimina service workers y cachés antiguos que puedan servir versiones obsoletas.
 (async function stabiliseVersion(){
   try {
     if ("serviceWorker" in navigator) {
