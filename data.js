@@ -1,5 +1,5 @@
-// Recetario Toni Merino · Versión 1.2.0 · 30 fichas verificadas
-window.RTM_DATA_VERSION = "1.2.0";
+// Recetario Toni Merino · Versión 1.3.0 · 30 fichas verificadas
+window.RTM_DATA_VERSION = "1.3.0";
 window.RECIPES = [
   {
     "id": "rtm-0001",
@@ -54,7 +54,10 @@ window.RECIPES = [
       "OllaTradicional",
       "Invierno"
     ],
-    "emoji": "🍲"
+    "emoji": "🍲",
+    "vegetarian": false,
+    "vegan": false,
+    "dietary_note": ""
   },
   {
     "id": "rtm-0002",
@@ -107,7 +110,10 @@ window.RECIPES = [
       "Navidad",
       "Excelente"
     ],
-    "emoji": "🍤"
+    "emoji": "🍤",
+    "vegetarian": false,
+    "vegan": false,
+    "dietary_note": ""
   },
   {
     "id": "rtm-0003",
@@ -159,7 +165,10 @@ window.RECIPES = [
       "Fideuas",
       "CaldoBase"
     ],
-    "emoji": "🥣"
+    "emoji": "🥣",
+    "vegetarian": false,
+    "vegan": false,
+    "dietary_note": ""
   },
   {
     "id": "rtm-0004",
@@ -204,7 +213,10 @@ window.RECIPES = [
       "Excelente",
       "RecetaFavorita"
     ],
-    "emoji": "🧁"
+    "emoji": "🧁",
+    "vegetarian": true,
+    "vegan": false,
+    "dietary_note": ""
   },
   {
     "id": "rtm-0005",
@@ -251,7 +263,10 @@ window.RECIPES = [
       "Vainilla",
       "Nueces"
     ],
-    "emoji": "🍨"
+    "emoji": "🍨",
+    "vegetarian": true,
+    "vegan": false,
+    "dietary_note": ""
   },
   {
     "id": "rtm-0006",
@@ -295,7 +310,10 @@ window.RECIPES = [
       "Arroces",
       "Fideua"
     ],
-    "emoji": "🦑"
+    "emoji": "🦑",
+    "vegetarian": false,
+    "vegan": false,
+    "dietary_note": ""
   },
   {
     "id": "rtm-0007",
@@ -332,7 +350,10 @@ window.RECIPES = [
       "BebidaVegetal",
       "SinLactosa"
     ],
-    "emoji": "🥛"
+    "emoji": "🥛",
+    "vegetarian": true,
+    "vegan": false,
+    "dietary_note": "Puede ser vegana utilizando dátiles en lugar de miel."
   },
   {
     "id": "rtm-0008",
@@ -379,7 +400,10 @@ window.RECIPES = [
       "Cerdo",
       "SinVinagre"
     ],
-    "emoji": "🥩"
+    "emoji": "🥩",
+    "vegetarian": false,
+    "vegan": false,
+    "dietary_note": ""
   },
   {
     "id": "rtm-0009",
@@ -420,7 +444,10 @@ window.RECIPES = [
       "Brandy",
       "SalsaDeSoja"
     ],
-    "emoji": "🥩"
+    "emoji": "🥩",
+    "vegetarian": false,
+    "vegan": false,
+    "dietary_note": ""
   },
   {
     "id": "rtm-0010",
@@ -454,7 +481,10 @@ window.RECIPES = [
       "Anchoas",
       "Verano"
     ],
-    "emoji": "🥣"
+    "emoji": "🥣",
+    "vegetarian": false,
+    "vegan": false,
+    "dietary_note": ""
   },
   {
     "id": "rtm-0011",
@@ -494,7 +524,10 @@ window.RECIPES = [
       "Rapida",
       "SinCoccion"
     ],
-    "emoji": "🥣"
+    "emoji": "🥣",
+    "vegetarian": true,
+    "vegan": false,
+    "dietary_note": ""
   },
   {
     "id": "rtm-0012",
@@ -535,7 +568,10 @@ window.RECIPES = [
       "CremaFria",
       "Verano"
     ],
-    "emoji": "🥣"
+    "emoji": "🥣",
+    "vegetarian": false,
+    "vegan": false,
+    "dietary_note": ""
   },
   {
     "id": "rtm-0013",
@@ -578,7 +614,10 @@ window.RECIPES = [
       "Gambas",
       "Aperitivo"
     ],
-    "emoji": "🐟"
+    "emoji": "🐟",
+    "vegetarian": false,
+    "vegan": false,
+    "dietary_note": ""
   },
   {
     "id": "rtm-0014",
@@ -618,7 +657,10 @@ window.RECIPES = [
       "Postre",
       "Vasitos"
     ],
-    "emoji": "🍓"
+    "emoji": "🍓",
+    "vegetarian": true,
+    "vegan": false,
+    "dietary_note": ""
   },
   {
     "id": "rtm-0015",
@@ -658,7 +700,10 @@ window.RECIPES = [
       "FrutaSeca",
       "VinoTinto"
     ],
-    "emoji": "🍷"
+    "emoji": "🍷",
+    "vegetarian": true,
+    "vegan": false,
+    "dietary_note": ""
   },
   {
     "id": "rtm-0016",
@@ -699,7 +744,10 @@ window.RECIPES = [
       "Queso",
       "Postre"
     ],
-    "emoji": "🧀"
+    "emoji": "🧀",
+    "vegetarian": true,
+    "vegan": false,
+    "dietary_note": ""
   },
   {
     "id": "rtm-0017",
@@ -744,7 +792,10 @@ window.RECIPES = [
       "Pescado",
       "Rebozado"
     ],
-    "emoji": "🐟"
+    "emoji": "🐟",
+    "vegetarian": false,
+    "vegan": false,
+    "dietary_note": ""
   },
   {
     "id": "rtm-0018",
@@ -788,7 +839,10 @@ window.RECIPES = [
       "Brandy",
       "SopasYCremas"
     ],
-    "emoji": "🧅"
+    "emoji": "🧅",
+    "vegetarian": false,
+    "vegan": false,
+    "dietary_note": ""
   },
   {
     "id": "rtm-0019",
@@ -822,7 +876,10 @@ window.RECIPES = [
       "Thermomix",
       "AOVE"
     ],
-    "emoji": "🫒"
+    "emoji": "🫒",
+    "vegetarian": true,
+    "vegan": true,
+    "dietary_note": ""
   },
   {
     "id": "rtm-0020",
@@ -878,7 +935,10 @@ window.RECIPES = [
       "Horno",
       "CocinaCatalana"
     ],
-    "emoji": "🍖"
+    "emoji": "🍖",
+    "vegetarian": false,
+    "vegan": false,
+    "dietary_note": ""
   },
   {
     "id": "rtm-0021",
@@ -929,7 +989,10 @@ window.RECIPES = [
       "RecetaProbada",
       "Excelente"
     ],
-    "emoji": "🥧"
+    "emoji": "🥧",
+    "vegetarian": false,
+    "vegan": false,
+    "dietary_note": ""
   },
   {
     "id": "rtm-0022",
@@ -971,7 +1034,10 @@ window.RECIPES = [
       "RecetaProbada",
       "MuyBuena"
     ],
-    "emoji": "🍈"
+    "emoji": "🍈",
+    "vegetarian": true,
+    "vegan": false,
+    "dietary_note": ""
   },
   {
     "id": "rtm-0023",
@@ -1018,7 +1084,10 @@ window.RECIPES = [
       "Thermomix",
       "PendienteDeHacer"
     ],
-    "emoji": "🍚"
+    "emoji": "🍚",
+    "vegetarian": true,
+    "vegan": false,
+    "dietary_note": ""
   },
   {
     "id": "rtm-0024",
@@ -1072,7 +1141,10 @@ window.RECIPES = [
       "Cazuela",
       "PendienteDeHacer"
     ],
-    "emoji": "🥘"
+    "emoji": "🥘",
+    "vegetarian": false,
+    "vegan": false,
+    "dietary_note": ""
   },
   {
     "id": "rtm-0025",
@@ -1109,7 +1181,10 @@ window.RECIPES = [
       "Batidora",
       "Probada"
     ],
-    "emoji": "🥣"
+    "emoji": "🥣",
+    "vegetarian": true,
+    "vegan": false,
+    "dietary_note": ""
   },
   {
     "id": "rtm-0026",
@@ -1164,7 +1239,10 @@ window.RECIPES = [
       "SalsaDeYogur",
       "PendienteDeHacer"
     ],
-    "emoji": "🥙"
+    "emoji": "🥙",
+    "vegetarian": false,
+    "vegan": false,
+    "dietary_note": ""
   },
   {
     "id": "rtm-0027",
@@ -1215,7 +1293,10 @@ window.RECIPES = [
       "Instagram",
       "PendienteDeHacer"
     ],
-    "emoji": "🐟"
+    "emoji": "🐟",
+    "vegetarian": false,
+    "vegan": false,
+    "dietary_note": ""
   },
   {
     "id": "rtm-0028",
@@ -1268,7 +1349,10 @@ window.RECIPES = [
       "Azafran",
       "PendienteDeHacer"
     ],
-    "emoji": "🍗"
+    "emoji": "🍗",
+    "vegetarian": false,
+    "vegan": false,
+    "dietary_note": ""
   },
   {
     "id": "rtm-0029",
@@ -1309,7 +1393,10 @@ window.RECIPES = [
       "Thermomix",
       "PendienteDeHacer"
     ],
-    "emoji": "🐟"
+    "emoji": "🐟",
+    "vegetarian": false,
+    "vegan": false,
+    "dietary_note": ""
   },
   {
     "id": "rtm-0030",
@@ -1356,6 +1443,9 @@ window.RECIPES = [
       "PendienteDeHacer",
       "Vegetariana"
     ],
-    "emoji": "🥛"
+    "emoji": "🥛",
+    "vegetarian": true,
+    "vegan": false,
+    "dietary_note": ""
   }
 ];

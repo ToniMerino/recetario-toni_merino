@@ -1,3 +1,15 @@
+# CHANGELOG · Recetario Toni Merino
+
+## v1.3.0 · Sprint 4.0 · Clasificación y búsqueda avanzada
+- Se mantienen las 30 fichas de la v1.2.0 sin modificar su contenido culinario.
+- Se incorpora clasificación estructurada vegetariana/vegana y observación dietética.
+- 12 fichas se clasifican como vegetarianas; 1 de ellas también como vegana.
+- La leche de almendras incorpora el matiz: puede ser vegana si se utilizan dátiles en lugar de miel.
+- Se añaden filtros por familia y características: Thermomix, Air Fryer, probadas, excelente, vegetarianas y veganas.
+- El buscador incorpora autor, procedencia y clasificación dietética.
+- La migración conserva las ediciones locales y enriquece las fichas con los nuevos campos dietéticos.
+- Versión visible actualizada a 1.3.0.
+
 # Changelog
 
 ## v1.2.0 · Sprint 3.0

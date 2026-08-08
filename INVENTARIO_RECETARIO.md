@@ -34,3 +34,9 @@
 | rtm-0028 | Pollo en pepitoria | recipe | Carne | Pendiente de hacer |
 | rtm-0029 | Bacalao dorado o Bacalhau à Brás | recipe | Pescado | Pendiente de hacer |
 | rtm-0030 | Yogur de avellana (Thermomix) | recipe | Lácteos y fermentados | Pendiente de hacer |
+
+
+## Clasificación dietética · v1.3.0
+- Vegetarianas: 12 fichas.
+- Veganas: 1 ficha (Aceites aromatizados).
+- Leche de almendras: vegetariana; puede ser vegana usando dátiles en lugar de miel.
