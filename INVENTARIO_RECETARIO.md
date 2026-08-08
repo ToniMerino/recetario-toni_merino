@@ -1,8 +1,5 @@
 # Inventario del Recetario Toni Merino
 
-Versión: **0.2.2**  
-Total de fichas: **20**
-
 | ID interno | Título | Tipo de ficha | Familia | Estado |
 |---|---|---|---|---|
 | rtm-0001 | Escudella i carn d'olla – Iaia Pilar | Receta | Sopas y cremas | Pendiente de hacer |

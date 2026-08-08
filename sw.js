@@ -1,5 +1,5 @@
-const CACHE="rtm-v0.2.3";
-const ASSETS=["./","./index.html","./styles.css?v=0.2.3","./app.js?v=0.2.3","./data.js?v=0.2.3","./manifest.webmanifest"];
-self.addEventListener("install",event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS))));
-self.addEventListener("activate",event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE).map(key=>caches.delete(key))))));
-self.addEventListener("fetch",event=>event.respondWith(caches.match(event.request).then(response=>response||fetch(event.request))));
+// Recetario Toni Merino v1.0.0
+// El service worker queda desactivado temporalmente para evitar cachés obsoletas.
+self.addEventListener("install", () => self.skipWaiting());
+self.addEventListener("activate", event => event.waitUntil(self.clients.claim()));
+self.addEventListener("fetch", event => event.respondWith(fetch(event.request)));

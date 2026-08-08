@@ -1,4 +1,4 @@
-// Recetario Toni Merino · Sprint 2.2 · 20 fichas
+// Recetario Toni Merino · Versión 1.0.0 · 20 fichas
 window.RECIPES = [
   {
     "id": "rtm-0001",
@@ -882,7 +882,7 @@ window.RECIPES = [
 ];
 
 (function () {
-  const migrationKey = "rtm_migration_sprint_2_2_20_compatible";
+  const migrationKey = "rtm_migration_v1_0_0_20";
   const storageKey = "rtm_v01_records";
   try {
     if (!localStorage.getItem(migrationKey)) {
