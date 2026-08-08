@@ -12,3 +12,5 @@ main{max-width:920px;margin:auto;padding:16px 14px 80px}.hidden{display:none!imp
 
 .advanced-filters{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:0 0 12px}.advanced-filters label{font-size:.72rem;font-weight:700;color:var(--muted)}.advanced-filters select{display:block;width:100%;margin-top:5px;border:1px solid var(--line);border-radius:12px;padding:10px;background:var(--paper);color:var(--text)}.dietary{display:flex;gap:7px;flex-wrap:wrap;align-items:center;margin:-10px 0 20px}.diet-badge{background:#edf0e8;border:1px solid #d5dccb;border-radius:999px;padding:6px 9px;font-size:.76rem;font-weight:700}.dietary p{flex-basis:100%;margin:3px 0 0;color:var(--muted);font-size:.82rem}
 @media(max-width:520px){.advanced-filters{grid-template-columns:1fr}}
+
+.favorite-btn.active{background:#f1e6c8;color:#6f5414}.favorite-btn{white-space:nowrap}

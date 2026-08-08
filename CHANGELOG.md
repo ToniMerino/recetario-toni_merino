@@ -1,4 +1,13 @@
-# CHANGELOG · Recetario Toni Merino
+# Registro de cambios
+
+## v1.4.0 · Sprint 5.0 · Favoritos
+
+- Añadida la preferencia personal Favorita.
+- Magdalenas caseras de Puente Genil parte como favorita por constar documentada como receta favorita.
+- Añadido control para marcar y desmarcar favoritas desde la ficha.
+- Añadido filtro Favoritas en Características.
+- La preferencia se conserva en localStorage y durante futuras migraciones del catálogo.
+- Se mantienen las 30 fichas y el modelo normalizado existente.
 
 ## v1.3.0 · Sprint 4.0 · Clasificación y búsqueda avanzada
 - Se mantienen las 30 fichas de la v1.2.0 sin modificar su contenido culinario.

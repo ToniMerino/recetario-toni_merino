@@ -40,3 +40,9 @@
 - Vegetarianas: 12 fichas.
 - Veganas: 1 ficha (Aceites aromatizados).
 - Leche de almendras: vegetariana; puede ser vegana usando dátiles en lugar de miel.
+
+
+## Favoritos · v1.4.0
+
+- Favorita inicial documentada: Magdalenas caseras de Puente Genil.
+- El resto de fichas no se marcan como favoritas sin evidencia o decisión expresa del usuario.

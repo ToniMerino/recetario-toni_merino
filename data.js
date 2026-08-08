@@ -1,4 +1,4 @@
-// Recetario Toni Merino · Versión 1.3.0 · 30 fichas verificadas
+// Recetario Toni Merino · Versión 1.4.0 · 30 fichas verificadas
 window.RTM_DATA_VERSION = "1.3.0";
 window.RECIPES = [
   {
@@ -57,7 +57,8 @@ window.RECIPES = [
     "emoji": "🍲",
     "vegetarian": false,
     "vegan": false,
-    "dietary_note": ""
+    "dietary_note": "",
+    "favorite": false
   },
   {
     "id": "rtm-0002",
@@ -113,7 +114,8 @@ window.RECIPES = [
     "emoji": "🍤",
     "vegetarian": false,
     "vegan": false,
-    "dietary_note": ""
+    "dietary_note": "",
+    "favorite": false
   },
   {
     "id": "rtm-0003",
@@ -168,7 +170,8 @@ window.RECIPES = [
     "emoji": "🥣",
     "vegetarian": false,
     "vegan": false,
-    "dietary_note": ""
+    "dietary_note": "",
+    "favorite": false
   },
   {
     "id": "rtm-0004",
@@ -216,7 +219,8 @@ window.RECIPES = [
     "emoji": "🧁",
     "vegetarian": true,
     "vegan": false,
-    "dietary_note": ""
+    "dietary_note": "",
+    "favorite": true
   },
   {
     "id": "rtm-0005",
@@ -266,7 +270,8 @@ window.RECIPES = [
     "emoji": "🍨",
     "vegetarian": true,
     "vegan": false,
-    "dietary_note": ""
+    "dietary_note": "",
+    "favorite": false
   },
   {
     "id": "rtm-0006",
@@ -313,7 +318,8 @@ window.RECIPES = [
     "emoji": "🦑",
     "vegetarian": false,
     "vegan": false,
-    "dietary_note": ""
+    "dietary_note": "",
+    "favorite": false
   },
   {
     "id": "rtm-0007",
@@ -353,7 +359,8 @@ window.RECIPES = [
     "emoji": "🥛",
     "vegetarian": true,
     "vegan": false,
-    "dietary_note": "Puede ser vegana utilizando dátiles en lugar de miel."
+    "dietary_note": "Puede ser vegana utilizando dátiles en lugar de miel.",
+    "favorite": false
   },
   {
     "id": "rtm-0008",
@@ -403,7 +410,8 @@ window.RECIPES = [
     "emoji": "🥩",
     "vegetarian": false,
     "vegan": false,
-    "dietary_note": ""
+    "dietary_note": "",
+    "favorite": false
   },
   {
     "id": "rtm-0009",
@@ -447,7 +455,8 @@ window.RECIPES = [
     "emoji": "🥩",
     "vegetarian": false,
     "vegan": false,
-    "dietary_note": ""
+    "dietary_note": "",
+    "favorite": false
   },
   {
     "id": "rtm-0010",
@@ -484,7 +493,8 @@ window.RECIPES = [
     "emoji": "🥣",
     "vegetarian": false,
     "vegan": false,
-    "dietary_note": ""
+    "dietary_note": "",
+    "favorite": false
   },
   {
     "id": "rtm-0011",
@@ -527,7 +537,8 @@ window.RECIPES = [
     "emoji": "🥣",
     "vegetarian": true,
     "vegan": false,
-    "dietary_note": ""
+    "dietary_note": "",
+    "favorite": false
   },
   {
     "id": "rtm-0012",
@@ -571,7 +582,8 @@ window.RECIPES = [
     "emoji": "🥣",
     "vegetarian": false,
     "vegan": false,
-    "dietary_note": ""
+    "dietary_note": "",
+    "favorite": false
   },
   {
     "id": "rtm-0013",
@@ -617,7 +629,8 @@ window.RECIPES = [
     "emoji": "🐟",
     "vegetarian": false,
     "vegan": false,
-    "dietary_note": ""
+    "dietary_note": "",
+    "favorite": false
   },
   {
     "id": "rtm-0014",
@@ -660,7 +673,8 @@ window.RECIPES = [
     "emoji": "🍓",
     "vegetarian": true,
     "vegan": false,
-    "dietary_note": ""
+    "dietary_note": "",
+    "favorite": false
   },
   {
     "id": "rtm-0015",
@@ -703,7 +717,8 @@ window.RECIPES = [
     "emoji": "🍷",
     "vegetarian": true,
     "vegan": false,
-    "dietary_note": ""
+    "dietary_note": "",
+    "favorite": false
   },
   {
     "id": "rtm-0016",
@@ -747,7 +762,8 @@ window.RECIPES = [
     "emoji": "🧀",
     "vegetarian": true,
     "vegan": false,
-    "dietary_note": ""
+    "dietary_note": "",
+    "favorite": false
   },
   {
     "id": "rtm-0017",
@@ -795,7 +811,8 @@ window.RECIPES = [
     "emoji": "🐟",
     "vegetarian": false,
     "vegan": false,
-    "dietary_note": ""
+    "dietary_note": "",
+    "favorite": false
   },
   {
     "id": "rtm-0018",
@@ -842,7 +859,8 @@ window.RECIPES = [
     "emoji": "🧅",
     "vegetarian": false,
     "vegan": false,
-    "dietary_note": ""
+    "dietary_note": "",
+    "favorite": false
   },
   {
     "id": "rtm-0019",
@@ -879,7 +897,8 @@ window.RECIPES = [
     "emoji": "🫒",
     "vegetarian": true,
     "vegan": true,
-    "dietary_note": ""
+    "dietary_note": "",
+    "favorite": false
   },
   {
     "id": "rtm-0020",
@@ -938,7 +957,8 @@ window.RECIPES = [
     "emoji": "🍖",
     "vegetarian": false,
     "vegan": false,
-    "dietary_note": ""
+    "dietary_note": "",
+    "favorite": false
   },
   {
     "id": "rtm-0021",
@@ -992,7 +1012,8 @@ window.RECIPES = [
     "emoji": "🥧",
     "vegetarian": false,
     "vegan": false,
-    "dietary_note": ""
+    "dietary_note": "",
+    "favorite": false
   },
   {
     "id": "rtm-0022",
@@ -1037,7 +1058,8 @@ window.RECIPES = [
     "emoji": "🍈",
     "vegetarian": true,
     "vegan": false,
-    "dietary_note": ""
+    "dietary_note": "",
+    "favorite": false
   },
   {
     "id": "rtm-0023",
@@ -1087,7 +1109,8 @@ window.RECIPES = [
     "emoji": "🍚",
     "vegetarian": true,
     "vegan": false,
-    "dietary_note": ""
+    "dietary_note": "",
+    "favorite": false
   },
   {
     "id": "rtm-0024",
@@ -1144,7 +1167,8 @@ window.RECIPES = [
     "emoji": "🥘",
     "vegetarian": false,
     "vegan": false,
-    "dietary_note": ""
+    "dietary_note": "",
+    "favorite": false
   },
   {
     "id": "rtm-0025",
@@ -1184,7 +1208,8 @@ window.RECIPES = [
     "emoji": "🥣",
     "vegetarian": true,
     "vegan": false,
-    "dietary_note": ""
+    "dietary_note": "",
+    "favorite": false
   },
   {
     "id": "rtm-0026",
@@ -1242,7 +1267,8 @@ window.RECIPES = [
     "emoji": "🥙",
     "vegetarian": false,
     "vegan": false,
-    "dietary_note": ""
+    "dietary_note": "",
+    "favorite": false
   },
   {
     "id": "rtm-0027",
@@ -1296,7 +1322,8 @@ window.RECIPES = [
     "emoji": "🐟",
     "vegetarian": false,
     "vegan": false,
-    "dietary_note": ""
+    "dietary_note": "",
+    "favorite": false
   },
   {
     "id": "rtm-0028",
@@ -1352,7 +1379,8 @@ window.RECIPES = [
     "emoji": "🍗",
     "vegetarian": false,
     "vegan": false,
-    "dietary_note": ""
+    "dietary_note": "",
+    "favorite": false
   },
   {
     "id": "rtm-0029",
@@ -1396,7 +1424,8 @@ window.RECIPES = [
     "emoji": "🐟",
     "vegetarian": false,
     "vegan": false,
-    "dietary_note": ""
+    "dietary_note": "",
+    "favorite": false
   },
   {
     "id": "rtm-0030",
@@ -1446,6 +1475,7 @@ window.RECIPES = [
     "emoji": "🥛",
     "vegetarian": true,
     "vegan": false,
-    "dietary_note": ""
+    "dietary_note": "",
+    "favorite": false
   }
 ];
