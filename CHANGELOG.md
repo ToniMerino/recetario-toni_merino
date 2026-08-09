@@ -1,6 +1,13 @@
-# Historial de cambios
+# Registro de cambios
 
-## v1.4.1 · Ajuste final Sprint 5.0 · Favoritos visibles
+## v1.5.0 · Sprint 6.0
+
+- Catálogo ampliado de 30 a 40 fichas verificadas.
+- Incorporadas 10 fichas normalizadas sin modificar las 30 existentes.
+- Se mantienen favoritos, filtros y persistencia local.
+
+
+## v1.5.0 · Ajuste final Sprint 5.0 · Favoritos visibles
 - Las fichas favoritas muestran una estrella visible directamente en la tarjeta del catálogo.
 - El control para marcar o desmarcar Favorita se mueve a la cabecera de la ficha detallada.
 - Se elimina el control duplicado de Favorita del final de la ficha.

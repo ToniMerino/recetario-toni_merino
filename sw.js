@@ -1,4 +1,4 @@
-// Recetario Toni Merino v1.4.1
+// Recetario Toni Merino v1.5.0
 // El service worker queda desactivado temporalmente para evitar cachés obsoletas.
 self.addEventListener("install", () => self.skipWaiting());
 self.addEventListener("activate", event => event.waitUntil(self.clients.claim()));

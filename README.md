@@ -1,21 +1,22 @@
-# Recetario Toni Merino v1.4.1
+# Recetario Toni Merino v1.5.0
 
-Versión estable del Sprint 2.0. Mantiene el modelo funcional validado en v1.0.0 y amplía el catálogo sin modificar la arquitectura de la aplicación.
+Versión estable candidata del Sprint 6.0, construida sobre RTM v1.4.1.
 
 ## Contenido
 
-- 30 fichas verificadas.
+- 40 fichas verificadas: 30 existentes sin cambios + 10 nuevas.
 - Recetas y técnicas culinarias diferenciadas visualmente.
-- Buscador por título, familia, procedencia, autor, estado, ingredientes y etiquetas.
-- Ficha rápida: Tipo, Familia culinaria, Raciones, Tiempo y Dificultad.
+- Buscador y filtros por familia y características.
+- Clasificación dietética cuando está documentada.
+- Favoritos persistentes, visibles en catálogo y cabecera de ficha.
 - Alta, edición y eliminación de fichas.
 - Exportación e importación de copias JSON.
 - Impresión o guardado de cada ficha como PDF.
 
-## Sprint 2.0
+## Sprint 6.0
 
-Se incorporan 10 fichas nuevas, verificadas frente al catálogo previo para evitar duplicados. La versión visible queda actualizada a 1.3.0.
+Se incorporan 10 fichas normalizadas, verificadas frente al catálogo de v1.4.1 para evitar duplicados. Las 30 fichas anteriores se mantienen sin cambios.
 
+## Actualización segura de datos
 
-## Actualización segura de datos (v1.4.1)
-La aplicación incorpora migración automática del catálogo base y conserva las fichas añadidas o modificadas localmente. Ya no es necesario borrar manualmente `localStorage` al publicar nuevas versiones.
+La aplicación conserva las fichas añadidas o modificadas localmente y añade las nuevas fichas del catálogo base. No es necesario borrar `localStorage` al publicar la actualización.

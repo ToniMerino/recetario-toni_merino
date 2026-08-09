@@ -1,6 +1,10 @@
-# Inventario Recetario Toni Merino · v1.1.0
+## Sprint 6.0 · RTM v1.5.0
 
-30 fichas verificadas. Sprint 2.0 cerrado.
+Catálogo: **40 fichas verificadas**. Se incorporan 10 fichas nuevas sin duplicados (rtm-0031 a rtm-0040).
+
+# Inventario Recetario Toni Merino · v1.5.0
+
+40 fichas verificadas. Sprint 6.0.
 
 | RTM | Título | Tipo | Familia | Estado |
 |---|---|---|---|---|
@@ -46,3 +50,13 @@
 
 - Favorita inicial documentada: Magdalenas caseras de Puente Genil.
 - El resto de fichas no se marcan como favoritas sin evidencia o decisión expresa del usuario.
+| rtm-0031 | Caldo de carne (pollo o ternera) (Thermomix) | technique | Técnicas y bases | Pendiente de hacer |
+| rtm-0032 | Caldo de pescado (Thermomix) | technique | Técnicas y bases | Pendiente de hacer |
+| rtm-0033 | Caldo de verduras (Thermomix) | technique | Técnicas y bases | Pendiente de hacer |
+| rtm-0034 | Cocción de legumbres (Thermomix) | technique | Técnicas y bases | Pendiente de hacer |
+| rtm-0035 | Iaia Pilar - Calamares rellenos | recipe | Pescado | Pendiente de hacer |
+| rtm-0036 | Stollen tradicional alemán | recipe | Panadería | Pendiente de hacer |
+| rtm-0037 | Cinta de lomo con sorpresa (Thermomix) | recipe | Carne | Pendiente de hacer |
+| rtm-0038 | Risotto de boletus | recipe | Arroces | Pendiente de hacer |
+| rtm-0039 | Granizado de naranja con fresas (Thermomix) | recipe | Bebidas | Pendiente de hacer |
+| rtm-0040 | Yogur líquido con coulis de fruta (Thermomix) | recipe | Lácteos y fermentados | Pendiente de hacer |
