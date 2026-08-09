@@ -6,13 +6,13 @@
   <meta name="theme-color" content="#f6f3ed">
   <title>Recetario Toni Merino · v1.6.0</title>
   <link rel="manifest" href="manifest.webmanifest?v=1.6.0">
-  <link rel="stylesheet" href="styles.css?v=1.6.0">
+  <link rel="stylesheet" href="styles.css?v=1.7.0">
 </head>
 <body>
 <header class="topbar">
   <div>
     <h1>Recetario Toni Merino</h1>
-    <p>Versión 1.6.0</p>
+    <p>Versión 1.7.0</p>
   </div>
   <button id="addBtn" class="round-btn" aria-label="Añadir ficha">＋</button>
 </header>
@@ -23,6 +23,7 @@
       <button class="chip active" data-filter="all">Todas</button>
       <button class="chip" data-filter="recipe">Recetas</button>
       <button class="chip technique" data-filter="technique">Técnicas</button>
+      <button class="chip favorite-chip" data-filter="favorite">★ Favoritas</button>
     </div>
     <div class="advanced-filters">
       <label>Familia
@@ -40,13 +41,23 @@
           <option value="favorite">Favoritas</option>
         </select>
       </label>
+      <label>Ordenar
+        <select id="sortFilter">
+          <option value="az">Título A–Z</option>
+          <option value="za">Título Z–A</option>
+          <option value="favorites">Favoritas primero</option>
+          <option value="family">Familia culinaria</option>
+          <option value="kind">Recetas / Técnicas</option>
+        </select>
+      </label>
     </div>
+    <div id="stats" class="catalog-stats" aria-label="Resumen del recetario"></div>
     <p id="count" class="count"></p>
     <div id="catalog" class="catalog"></div>
   </section>
 
   <section id="detailView" class="hidden">
-    <button id="backBtn" class="back-btn">← Volver</button>
+    <div class="detail-nav"><button id="backBtn" class="back-btn">← Volver al catálogo</button><button id="topPrintBtn" class="back-btn secondary-action">Imprimir / PDF</button></div>
     <article id="detail" class="detail"></article>
   </section>
 
@@ -95,7 +106,7 @@
     </form>
   </section>
 </main>
-<script src="data.js?v=1.6.0"></script>
-<script src="app.js?v=1.6.0"></script>
+<script src="data.js?v=1.7.0"></script>
+<script src="app.js?v=1.7.0"></script>
 </body>
 </html>

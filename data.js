@@ -1,5 +1,5 @@
-// Recetario Toni Merino · Versión 1.6.0 · 45 fichas verificadas
-window.RTM_DATA_VERSION = "1.6.0";
+// Recetario Toni Merino · Versión 1.7.0 · 45 fichas verificadas
+window.RTM_DATA_VERSION = "1.7.0";
 window.RECIPES = [
   {
     "id": "rtm-0001",
