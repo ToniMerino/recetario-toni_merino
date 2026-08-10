@@ -10,13 +10,19 @@
 </head>
 <body>
 <header class="topbar">
-  <div>
+  <div class="brand">
     <h1>Recetario Toni Merino</h1>
-    <p>Versión 2.0.0</p>
+    <p>Versión 2.1.0</p>
   </div>
-  <div class="top-actions"><span id="modeBadge" class="mode-badge">Modo consulta</span><button id="adminBtn" class="admin-btn" aria-label="Cambiar modo">🔐 Administración</button><button id="addBtn" class="round-btn admin-only hidden" aria-label="Añadir ficha">＋</button></div>
+  <div class="top-actions" aria-label="Modo de uso">
+    <div class="mode-switch">
+      <span id="modeBadge" class="mode-badge">Consulta</span>
+      <button id="adminBtn" class="admin-btn" type="button">🔐 Administración</button>
+    </div>
+    <button id="addBtn" class="round-btn hidden" aria-label="Añadir ficha">＋</button>
+  </div>
 </header>
-<div id="adminNotice" class="admin-notice hidden">⚠️ Modo administración activo · Esta versión separa la interfaz, pero todavía no incorpora autenticación real.</div>
+<div id="adminNotice" class="admin-notice hidden">Administración activa · Separación funcional sin autenticación real.</div>
 <main>
   <section id="catalogView">
     <input id="searchInput" class="search" type="search" placeholder="Buscar receta, familia, autor, etiqueta, ingrediente o dieta">
@@ -62,7 +68,7 @@
     <article id="detail" class="detail"></article>
   </section>
 
-  <section id="formView" class="hidden admin-only">
+  <section id="formView" class="hidden">
     <button id="cancelBtn" class="back-btn">← Cancelar</button>
     <form id="recipeForm" class="form-card">
       <input type="hidden" name="id">

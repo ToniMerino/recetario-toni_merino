@@ -1,4 +1,4 @@
-## Actualización a RTM v2.1.0
+## Actualización a RTM v2.0.0
 
 Sustituye los archivos del repositorio por los de este paquete. La versión añade soporte de imagen principal sin alterar el catálogo. Los datos locales existentes se migran incorporando el nuevo campo `image` del catálogo base cuando corresponda.
 
@@ -9,3 +9,7 @@ Sustituye los archivos del repositorio por los de este paquete. La versión aña
 3. Commit recomendado: `RTM v1.8.0 - Sprint 7.0`.
 4. Push origin.
 5. Validar en GitHub Pages: versión 1.7.0, 45 fichas, apertura de las cinco nuevas, favoritos y contraste Receta/Técnica.
+
+
+## Sprint 12A · Consulta / Administración
+Modo consulta por defecto y separación funcional del área de administración. Candidata 2: cabecera compacta, versión 2.1.0 coherente y controles adaptados a escritorio y móvil. No incorpora todavía autenticación real.

@@ -1,15 +1,6 @@
-# RTM v2.1.0 — Sprint 12A
-
-- Modo consulta activado por defecto.
-- Acceso diferenciado a Modo administración.
-- Alta, edición, eliminación, importación y exportación visibles/disponibles solo en administración.
-- Favoritos, búsqueda, filtros, Modo Cocina, imágenes, manuscritos y PDF permanecen disponibles en consulta.
-- Aviso explícito: esta separación de interfaz no constituye todavía autenticación ni seguridad real.
-- Se mantienen las 45 fichas del catálogo sin cambios culinarios.
-
 # Recetario Toni Merino — Changelog
 
-## v2.1.0 · Sprint 10.0 — Imágenes I
+## v2.0.0 · Sprint 10.0 — Imágenes I
 - Soporte opcional de imagen principal.
 - Miniaturas fotográficas en catálogo con fallback al icono actual.
 - Imagen ampliable en la ficha.
@@ -39,8 +30,12 @@
 - Se conservan las 40 fichas anteriores y la persistencia de cambios/favoritos.
 
 
-## v2.1.0 — Sprint 11 · Imágenes II
+## v2.0.0 — Sprint 11 · Imágenes II
 - Galería visual opcional por ficha.
 - Caso piloto: Iaia Pilar - Calamares rellenos.
 - Imagen principal del plato y dos páginas del manuscrito original.
 - Documentos ampliables y conservados como archivos independientes.
+
+
+## Sprint 12A · Consulta / Administración
+Modo consulta por defecto y separación funcional del área de administración. Candidata 2: cabecera compacta, versión 2.1.0 coherente y controles adaptados a escritorio y móvil. No incorpora todavía autenticación real.

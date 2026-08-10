@@ -10,3 +10,7 @@ Soporte opcional de imagen principal por ficha, miniatura en catálogo, ampliaci
 
 ## Sprint 11 · Imágenes II
 Añade galerías opcionales por ficha y distingue imagen principal de documentación original. Caso piloto: Iaia Pilar - Calamares rellenos, con fotografía del plato y dos páginas manuscritas ampliables.
+
+
+## Sprint 12A · Consulta / Administración
+Modo consulta por defecto y separación funcional del área de administración. Candidata 2: cabecera compacta, versión 2.1.0 coherente y controles adaptados a escritorio y móvil. No incorpora todavía autenticación real.
