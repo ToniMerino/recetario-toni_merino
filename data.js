@@ -1,5 +1,5 @@
 // Recetario Toni Merino · Versión 1.7.0 · 45 fichas verificadas
-window.RTM_DATA_VERSION = "1.7.0";
+window.RTM_DATA_VERSION = "1.9.0";
 window.RECIPES = [
   {
     "id": "rtm-0001",
@@ -115,7 +115,14 @@ window.RECIPES = [
     "vegetarian": false,
     "vegan": false,
     "dietary_note": "",
-    "favorite": false
+    "favorite": false,
+    "image": {
+      "file": "assets/images/bisque-langostinos.jpeg",
+      "type": "plato",
+      "author": "",
+      "source": "Imagen aportada para prueba visual",
+      "caption": "Bisqué de langostinos"
+    }
   },
   {
     "id": "rtm-0003",
@@ -1380,7 +1387,14 @@ window.RECIPES = [
     "vegetarian": false,
     "vegan": false,
     "dietary_note": "",
-    "favorite": false
+    "favorite": false,
+    "image": {
+      "file": "assets/images/pollo-pepitoria.jpeg",
+      "type": "plato",
+      "author": "",
+      "source": "Imagen aportada para prueba visual",
+      "caption": "Pollo en pepitoria"
+    }
   },
   {
     "id": "rtm-0029",
@@ -2213,6 +2227,13 @@ window.RECIPES = [
     "vegetarian": true,
     "vegan": false,
     "dietary_note": "Vegetariana. No vegana.",
-    "favorite": false
+    "favorite": false,
+    "image": {
+      "file": "assets/images/coca-llavaneres.jpeg",
+      "type": "plato",
+      "author": "",
+      "source": "Imagen aportada para prueba visual",
+      "caption": "Coca de Llavaneres"
+    }
   }
 ];

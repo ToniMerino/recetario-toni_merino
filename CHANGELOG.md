@@ -1,3 +1,13 @@
+# Recetario Toni Merino — Changelog
+
+## v1.9.0 · Sprint 10.0 — Imágenes I
+- Soporte opcional de imagen principal.
+- Miniaturas fotográficas en catálogo con fallback al icono actual.
+- Imagen ampliable en la ficha.
+- Imagen discreta en Modo Cocina y compatible con impresión/PDF.
+- Prueba inicial en Bisqué de langostinos, Pollo en pepitoria y Coca de Llavaneres.
+- Se preservan las 45 fichas y su contenido culinario.
+
 # Changelog
 
 ## v1.8.1 · Ajuste documental Sprint 9.0
