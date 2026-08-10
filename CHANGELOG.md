@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.8.1 · Ajuste documental Sprint 9.0
+- La impresión/PDF identifica claramente **Recetario Toni Merino**.
+- Se muestra el tipo de ficha (Receta o Técnica culinaria / base) y la versión RTM v1.8.1.
+- Se conserva en la ficha el autor y la procedencia ya existentes.
+- Sin cambios en las 45 fichas ni en el Modo Cocina.
+
 ## v1.7.0 · Sprint 8.0
 - Acceso directo ★ Favoritas junto a Todas / Recetas / Técnicas.
 - Ordenación del catálogo: A–Z, Z–A, favoritas primero, familia y tipo de ficha.

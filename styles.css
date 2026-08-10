@@ -45,3 +45,7 @@ main{max-width:920px;margin:auto;padding:16px 14px 80px}.hidden{display:none!imp
 body.cooking{overflow:hidden}
 @media(max-width:700px){.cook-layout{grid-template-columns:1fr}.cook-ingredients{display:none}.cook-ingredients.open{display:block}.cook-ingredients-toggle{display:inline-flex}.cook-step{min-height:150px}.cook-overlay{padding:10px}.cook-panel{padding:16px}.cook-top{align-items:flex-start}}
 @media print{.cook-overlay{display:none!important}.cook-btn{display:none!important}}
+
+/* v1.8.1 - Identidad documental en impresión/PDF */
+.print-identity{display:none}
+@media print{.print-identity{display:flex!important;justify-content:space-between;align-items:flex-end;gap:16px;padding:0 0 12px;margin:0 0 16px;border-bottom:1px solid #b9b1a7;font-size:10pt;color:#4c4741}.print-identity strong{font:700 15pt Georgia,serif;color:#26231f}.print-identity span{white-space:nowrap}.detail-head{padding-top:16px}.detail-head-top .favorite-btn,.detail-head-top .cook-btn{display:none!important}}
