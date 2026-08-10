@@ -1,4 +1,4 @@
-## Actualización a RTM v1.9.0
+## Actualización a RTM v2.0.0
 
 Sustituye los archivos del repositorio por los de este paquete. La versión añade soporte de imagen principal sin alterar el catálogo. Los datos locales existentes se migran incorporando el nuevo campo `image` del catálogo base cuando corresponda.
 

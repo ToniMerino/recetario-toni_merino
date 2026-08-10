@@ -1732,7 +1732,30 @@ window.RECIPES = [
     "vegetarian": false,
     "vegan": false,
     "dietary_note": "",
-    "favorite": false
+    "favorite": false,
+    "image": {
+      "file": "images/calamar-relleno-iaia-pilar.jpeg",
+      "type": "plato",
+      "author": "",
+      "source": "Imagen aportada al Recetario Toni Merino",
+      "caption": "Calamares rellenos"
+    },
+    "gallery": [
+      {
+        "file": "images/calamar-relleno-manuscrito-1.jpeg",
+        "type": "manuscrito",
+        "author": "Iaia Pilar",
+        "source": "Documento original familiar",
+        "caption": "Documento original · Página 1"
+      },
+      {
+        "file": "images/calamar-relleno-manuscrito-2.jpeg",
+        "type": "manuscrito",
+        "author": "Iaia Pilar",
+        "source": "Documento original familiar",
+        "caption": "Documento original · Página 2"
+      }
+    ]
   },
   {
     "id": "rtm-0036",

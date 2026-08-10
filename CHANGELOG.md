@@ -1,6 +1,6 @@
 # Recetario Toni Merino — Changelog
 
-## v1.9.0 · Sprint 10.0 — Imágenes I
+## v2.0.0 · Sprint 10.0 — Imágenes I
 - Soporte opcional de imagen principal.
 - Miniaturas fotográficas en catálogo con fallback al icono actual.
 - Imagen ampliable en la ficha.
@@ -29,3 +29,9 @@
 - Mayor diferenciación cromática entre Receta (terracota) y Técnica culinaria (verde azulado), en tarjetas y cabecera de detalle.
 - Se conservan las 40 fichas anteriores y la persistencia de cambios/favoritos.
 
+
+## v2.0.0 — Sprint 11 · Imágenes II
+- Galería visual opcional por ficha.
+- Caso piloto: Iaia Pilar - Calamares rellenos.
+- Imagen principal del plato y dos páginas del manuscrito original.
+- Documentos ampliables y conservados como archivos independientes.
