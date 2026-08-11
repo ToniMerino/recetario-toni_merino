@@ -49,3 +49,17 @@ Catálogo: **45 fichas verificadas**. Se incorporan 5 fichas nuevas sin duplicad
 43. `rtm-0043` — Chalota de espárragos y cangrejo
 44. `rtm-0044` — Lubina sobre pimientos confitados
 45. `rtm-0045` — Coca de Llavaneres
+
+
+## Migración piloto Evernote D–L · v2.1.1
+
+- rtm-0046 · Empanadillas de carne al horno (Thermomix)
+- rtm-0047 · Empanada de zamburiñas al estilo casero
+- rtm-0048 · Empanada de carne – El Forner de Alella
+- rtm-0049 · Ensaimadas (Thermomix)
+- rtm-0050 · Fideuà del senyoret (Thermomix) – receta Esther cuñada
+- rtm-0051 · Guacamole (Thermomix)
+- rtm-0052 · Helado de avellana (Thermomix)
+- rtm-0053 · Granizado de sandía (Thermomix)
+- rtm-0054 · Lasaña de calabacín, setas, queso y trufa
+- rtm-0055 · Judías blancas – Iaia Pilar

@@ -1,4 +1,4 @@
-# Recetario Toni Merino v2.1.0
+# Recetario Toni Merino v2.1.1
 
 Sprint 7.0. Catálogo con **45 fichas verificadas**.
 

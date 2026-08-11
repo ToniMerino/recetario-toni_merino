@@ -1,3 +1,11 @@
+# CHANGELOG
+
+## v2.1.1 · Migración piloto Evernote D–L
+- Incorporadas 10 recetas recuperadas y normalizadas desde el archivo histórico Evernote.
+- Catálogo ampliado de 45 a 55 fichas.
+- Se conservan procedencia, autoría y señales históricas de recetas probadas/excelentes.
+- Corregidas con validación de Toni las cantidades de la empanada de zamburiñas, la pastilla de caldo de la fideuà y la receta de Judías blancas – Iaia Pilar.
+
 # Recetario Toni Merino — Changelog
 
 ## v2.0.0 · Sprint 10.0 — Imágenes I
