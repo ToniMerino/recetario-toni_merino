@@ -8,9 +8,10 @@ function clone(v){return JSON.parse(JSON.stringify(v))}
 function sameRecord(a,b){return JSON.stringify(a)===JSON.stringify(b)}
 function loadRecords(){
   const base=clone(window.RECIPES||[]);
-  let saved=null,previousBase=null;
+  let saved=null,previousBase=null,previousVersion=null;
   try{saved=JSON.parse(localStorage.getItem(STORAGE_KEY))}catch(e){}
   try{previousBase=JSON.parse(localStorage.getItem(BASE_SNAPSHOT_KEY))}catch(e){}
+  try{previousVersion=localStorage.getItem(DATA_VERSION_KEY)}catch(e){}
   if(!Array.isArray(saved)||!saved.length){
     localStorage.setItem(BASE_SNAPSHOT_KEY,JSON.stringify(base));
     localStorage.setItem(DATA_VERSION_KEY,CURRENT_DATA_VERSION);
@@ -36,7 +37,13 @@ function loadRecords(){
     const old=oldBaseById.get(r.id);
     if(!old||!sameRecord(r,old)) localOverrides.set(r.id,r);
   });
-  const merged=base.filter(r=>!deletedIds.has(r.id)).map(r=>{
+  const migratingToCurrent=previousVersion!==CURRENT_DATA_VERSION;
+  const merged=base.filter(r=>{
+    // Durante una actualización de catálogo, una ficha oficial nueva nunca debe
+    // confundirse con una eliminación local. Esto garantiza 45 -> 55 en v2.1.1.
+    if(migratingToCurrent && !oldBaseById.has(r.id)) return true;
+    return !deletedIds.has(r.id);
+  }).map(r=>{
     const local=localOverrides.get(r.id);
     if(!local)return r;
     // Conserva la edición local, pero incorpora campos nuevos del modelo que no existían antes.
