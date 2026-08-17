@@ -1,3 +1,7 @@
+## Actualización v2.1.3
+
+79 fichas totales. Incorporadas 24 recetas del Lote 2 de migración Evernote D-L sobre la base v2.1.2.
+
 ## Sprint 7.0 · RTM v1.6.0
 
 Catálogo: **45 fichas verificadas**. Se incorporan 5 fichas nuevas sin duplicados (rtm-0041 a rtm-0045).

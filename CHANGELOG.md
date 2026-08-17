@@ -1,3 +1,8 @@
+## v2.1.3 — Migración Evernote D-L · Lote 2
+- Incorporación incremental de 24 recetas normalizadas.
+- Catálogo: 55 → 79 fichas.
+- Se mantiene la taxonomía RTM v2.1.2 y la migración local preservando favoritos y cambios del usuario.
+
 # CHANGELOG
 
 ## v2.1.1 · Migración piloto Evernote D–L
