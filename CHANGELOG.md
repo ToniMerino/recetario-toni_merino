@@ -47,3 +47,10 @@
 
 ## Sprint 12A · Consulta / Administración
 Modo consulta por defecto y separación funcional del área de administración. Candidata 2: cabecera compacta, versión 2.1.0 coherente y controles adaptados a escritorio y móvil. No incorpora todavía autenticación real.
+
+## v2.1.2 - Normalización taxonómica
+- Normalizadas Familia y Tipo de las 55 fichas según la taxonomía RTM aprobada.
+- Separados los postres helados de la pastelería/repostería y de las bebidas.
+- Incorporada la familia Postres fríos y de cuchara.
+- El formulario de administración restringe Familia y Tipo a valores controlados.
+- La migración fuerza la taxonomía oficial preservando favoritos y otros datos locales.

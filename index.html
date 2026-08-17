@@ -4,15 +4,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#f6f3ed">
-  <title>Recetario Toni Merino · v2.1.1</title>
-  <link rel="manifest" href="manifest.webmanifest?v=2.1.1-c2">
-  <link rel="stylesheet" href="styles.css?v=2.1.1-c2">
+  <title>Recetario Toni Merino · v2.1.2</title>
+  <link rel="manifest" href="manifest.webmanifest?v=2.1.2-tax">
+  <link rel="stylesheet" href="styles.css?v=2.1.2-tax">
 </head>
 <body>
 <header class="topbar">
   <div class="brand">
     <h1>Recetario Toni Merino</h1>
-    <p>Versión 2.1.1</p>
+    <p>Versión 2.1.2</p>
   </div>
   <div class="top-actions" aria-label="Modo de uso">
     <div class="mode-switch">
@@ -83,8 +83,8 @@
       <label>Procedencia<input name="origin"></label>
       <label>Autor o familiar<input name="author"></label>
       <div class="two-cols">
-        <label>Tipo<input name="type"></label>
-        <label>Familia culinaria<input name="family"></label>
+        <label>Tipo<select name="type" required><option value="">Selecciona tipo</option></select></label>
+        <label>Familia culinaria<select name="family" required><option value="">Selecciona familia</option></select></label>
         <label>Raciones<input name="servings"></label>
         <label>Tiempo<input name="time"></label>
         <label>Dificultad<input name="difficulty"></label>
@@ -113,7 +113,7 @@
     </form>
   </section>
 </main>
-<script src="data.js?v=2.1.1-c2"></script>
-<script src="app.js?v=2.1.1-c2"></script>
+<script src="data.js?v=2.1.2-tax"></script>
+<script src="app.js?v=2.1.2-tax"></script>
 </body>
 </html>
