@@ -1,3 +1,10 @@
+# v2.1.4 · Evernote D-L Lote 3
+
+- 25 nuevas fichas normalizadas.
+- Catálogo: 79 → 104 fichas.
+- Taxonomía ampliada solo con tipos necesarios, sin crear nuevas familias.
+- Conservación de trazabilidad de las fuentes Evernote.
+
 ## v2.1.3 — Migración Evernote D-L · Lote 2
 - Incorporación incremental de 24 recetas normalizadas.
 - Catálogo: 55 → 79 fichas.
