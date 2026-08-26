@@ -1,3 +1,10 @@
+# v2.1.5 · Lote 4
+
+- 25 nuevas fichas normalizadas.
+- Catálogo: 104 → 129 fichas.
+- 23 fuentes Evernote D-L y 2 recetas trabajadas en el proyecto Recetario.
+- Inventario maestro actualizado.
+
 # v2.1.4 · Evernote D-L Lote 3
 
 - 25 nuevas fichas normalizadas.
