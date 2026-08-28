@@ -1,7 +1,7 @@
-# v2.1.5 · Lote 4
+# v2.1.6 · Lote 4
 
 - 25 nuevas fichas normalizadas.
-- Catálogo: 104 → 129 fichas.
+- Catálogo: 104 → 154 fichas.
 - 23 fuentes Evernote D-L y 2 recetas trabajadas en el proyecto Recetario.
 - Inventario maestro actualizado.
 
@@ -73,3 +73,8 @@ Modo consulta por defecto y separación funcional del área de administración. 
 - Incorporada la familia Postres fríos y de cuchara.
 - El formulario de administración restringe Familia y Tipo a valores controlados.
 - La migración fuerza la taxonomía oficial preservando favoritos y otros datos locales.
+
+
+## 2.1.6
+- Lote 5: 25 nuevas fichas desde Evernote D–L.
+- Total: 154 fichas.
