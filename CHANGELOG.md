@@ -1,3 +1,33 @@
+# v2.1.8 · Lote 6 + auditoría de fidelidad · 2026-09-09
+
+- Publicación consolidada de todas las correcciones de fidelidad realizadas sobre la base v2.1.7.
+- Catálogo verificado: **163 recetas/fichas válidas** y IDs únicos.
+- Resuelta la incidencia de identidad de `rtm-0120`: el registro «Lentejas guisadas» contenía en realidad el hummus de lentejas de Hogarmania.
+- `rtm-0110` queda consolidado como **Hummus de lentejas – Hogarmania**.
+- `rtm-0120` se retira de la web hasta disponer de una fuente auténtica de «Lentejas guisadas».
+- `rtm-0157` se mantiene como **Hummus de lentejas – Directo al Paladar**, receta distinta por contenido.
+- Se mantienen acumuladas las auditorías de fidelidad 1–4: restauración de pasos, parámetros Thermomix, separación ingredientes/preparación y limpieza de HTML/prosa editorial sin síntesis culinaria indebida.
+
+
+### Auditoría de fidelidad 4 · 2026-09-09
+- `rtm-0125` Helado de vainilla (Thermomix): restaurados parámetros truncados y normalizada la secuencia completa de elaboración y mantecado.
+- Limpieza de residuos editoriales/HTML y reestructuración fiel de pasos en `rtm-0066`, `rtm-0082`, `rtm-0090`, `rtm-0098`, `rtm-0104`, `rtm-0105`, `rtm-0107`, `rtm-0115`, `rtm-0117`, `rtm-0126`, `rtm-0133`, `rtm-0134`, `rtm-0145`, `rtm-0147` y `rtm-0148`.
+- Se mantiene abierta una incidencia de identidad en `rtm-0120`: el título «Lentejas guisadas» no coincide con el contenido, que corresponde a hummus de lentejas; no se corrige automáticamente hasta reconciliarlo con el Inventario Maestro.
+
+
+## Corrección de calidad de contenido · 2026-09-09
+- `rtm-0005` Helado de vainilla y nueces (Thermomix): restaurada la preparación detallada a partir de la fuente documental.
+- Criterio web: la preparación no se sintetiza eliminando información operativa; se conservan fases, tiempos, temperaturas, velocidades, accesorios, reposos y señales culinarias.
+- Esta receta se adopta como patrón para la auditoría progresiva de fidelidad ficha maestra → web.
+
+# v2.1.7 · Lote 6
+
+- Catálogo: 154 → 164 fichas.
+- Altas: `rtm-0155` a `rtm-0164`.
+- Se consolida el título «Crema de zanahoria, naranja y jengibre (La soupe des amoureux)» para la receta de Imma Oliveras.
+- Se mantiene `rtm-0073` como identidad única del Hummus de garbanzo (Thermomix), evitando duplicidad.
+- Incorporadas las recetas recientes del proyecto: crema de zanahoria, bizcocho de limón, hummus de lentejas DAP, pollo al curry, risotto, arroz meloso, secreto ibérico, costillas, salmón marinado y pan de cristal.
+
 # v2.1.6 · Lote 4
 
 - 25 nuevas fichas normalizadas.
@@ -78,3 +108,23 @@ Modo consulta por defecto y separación funcional del área de administración. 
 ## 2.1.6
 - Lote 5: 25 nuevas fichas desde Evernote D–L.
 - Total: 154 fichas.
+
+### Auditoría de fidelidad web · pasada estructural
+- `rtm-0140 Granizado de cava (Thermomix)`: corregida una incidencia de migración que había colocado la preparación dentro de Ingredientes; se recuperan los pasos completos disponibles, incluidos Turbo, cestillo, colado, limpieza del vaso y 30 s · velocidad 5.
+- `rtm-0122 Lomo a la naranja con pimientos verdes`: eliminada de Ingredientes la preparación duplicada y trasladado el consejo de congelación a Consejos.
+- Se mantiene como regla que la web adapta el formato, pero no resume ni elimina información culinaria sustantiva de la ficha/fuente maestra.
+
+### Auditoría de fidelidad 2 · 2026-09-09
+- rtm-0101 Helado de fresas: eliminada prosa editorial de Ingredientes y restaurada la secuencia completa de elaboración disponible.
+- rtm-0132 Garbanzos con arroz y sofrito de pimentón: separados ingredientes y preparación; recuperados remojo, olla rápida, majada, sofrito de pimentón y cocción final del arroz.
+- rtm-0141 Guiso de garbanzos a la asturiana: separado el proceso que estaba incrustado en Ingredientes; se señala expresamente que el detalle del sofrito no está completo en la fuente disponible.
+- rtm-0143 Hamburguesa de bolets: trasladada a Preparación toda la secuencia recuperada que estaba incrustada en Ingredientes; no se inventan los pasos posteriores ausentes.
+
+### Auditoría de fidelidad 3 · 2026-09-09
+- `rtm-0112 Hummus de piquillos (Thermomix)`: limpiados ingredientes y prosa editorial; restaurados 30 s · vel. 10, 10 s · vel. 9 y los dos ciclos de 15 s · vel. 9, contrastados con la receta oficial equivalente de Thermomix/Cookidoo.
+- `rtm-0123 Lomo con salsa de almendras y ciruelas pasas`: eliminado contenido de navegación/blog incrustado; recuperados ingredientes, 4 raciones y seis pasos culinarios completos a partir de la fuente histórica conservada.
+- `rtm-0124 Helado de vainilla con cookies de chocolate`: restaurada la velocidad 4 de la crema inglesa (8 min · 90 °C · vel. 4) y completada la presentación.
+- `rtm-0135 Garbanzos salteados con chorizo y pimentón`: dividido el bloque único de preparación en siete pasos operativos sin resumir contenido.
+- `rtm-0150 Garbanzos con gambas y arroz (Thermomix)`: eliminada basura de imágenes/HTML y restaurados los parámetros Thermomix completos desde la fuente original publicada.
+- `rtm-0151 Judías blancas con chorizo (Thermomix)`: separados ingredientes y preparación, eliminados metadatos residuales y normalizados raciones, tiempo y parámetros Thermomix.
+- `rtm-0152 Fondo de verduras concentrado`: eliminados HTML e imágenes incrustadas; restauradas cantidades, autora, tiempo, dificultad y secuencia completa desde la fuente original de Directo al Paladar.

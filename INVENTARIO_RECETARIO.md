@@ -1,3 +1,24 @@
+# Actualización v2.1.8 · Lote 6 + auditoría de fidelidad
+
+Catálogo: **163 fichas verificadas**. Se mantienen las 10 altas del Lote 6 (`rtm-0155` a `rtm-0164`) y se consolida la auditoría de fidelidad de contenido.
+
+- `rtm-0155` · Crema de zanahoria, naranja y jengibre (La soupe des amoureux)
+- `rtm-0156` · Bizcocho de limón entero
+- `rtm-0157` · Hummus de lentejas – Directo al Paladar
+- `rtm-0158` · Pollo al curry (Thermomix)
+- `rtm-0159` · Risotto de setas y alcachofas
+- `rtm-0160` · Arroz meloso de carrilleras
+- `rtm-0161` · Secreto ibérico con salsa de gorgonzola y setas
+- `rtm-0162` · Costillas de cerdo con berenjenas
+- `rtm-0163` · Salmón marinado con soja y miel
+- `rtm-0164` · Pan de cristal
+
+**Reconciliación de identidad:**
+- `rtm-0110` · Hummus de lentejas – Hogarmania: título y contenido reconciliados.
+- `rtm-0120` · eliminado de la web: figuraba como «Lentejas guisadas» pero contenía la misma receta de hummus de Hogarmania. No se conserva como receta válida hasta recuperar una fuente auténtica de «Lentejas guisadas».
+- `rtm-0157` · Hummus de lentejas – Directo al Paladar: se mantiene como receta distinta por ingredientes y elaboración.
+- `rtm-0073` · Hummus de garbanzo (Thermomix): se mantiene como identidad única, sin duplicidad.
+
 ## Actualización v2.1.3
 
 79 fichas totales. Incorporadas 24 recetas del Lote 2 de migración Evernote D-L sobre la base v2.1.2.

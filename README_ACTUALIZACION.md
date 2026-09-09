@@ -1,3 +1,9 @@
+# Actualización recomendada · v2.1.8
+
+Sustituir los archivos de la web por los incluidos en este paquete. La versión incorpora el Lote 6 y todas las correcciones acumuladas de fidelidad.
+
+**Control de identidad:** `rtm-0110` queda como «Hummus de lentejas – Hogarmania» y se elimina `rtm-0120`, que era un registro erróneo con título «Lentejas guisadas» pero contenido duplicado del hummus de Hogarmania. La versión de Directo al Paladar se mantiene como receta distinta en `rtm-0157`.
+
 ## Actualización a RTM v2.0.0
 
 Sustituye los archivos del repositorio por los de este paquete. La versión añade soporte de imagen principal sin alterar el catálogo. Los datos locales existentes se migran incorporando el nuevo campo `image` del catálogo base cuando corresponda.

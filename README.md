@@ -1,3 +1,7 @@
+# Recetario Toni Merino v2.1.8
+
+Lote 6 + auditoría de fidelidad. Catálogo con **163 fichas verificadas**.
+
 # Recetario Toni Merino v2.1.1
 
 Sprint 7.0. Catálogo con **45 fichas verificadas**.
