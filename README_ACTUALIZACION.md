@@ -1,4 +1,4 @@
-# Actualización recomendada · v2.1.14
+# Actualización recomendada · v2.1.15
 
 Sustituir los archivos de la web por los incluidos en este paquete. La versión incorpora el Lote 6 y todas las correcciones acumuladas de fidelidad.
 

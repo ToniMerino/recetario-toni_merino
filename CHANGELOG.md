@@ -1,3 +1,10 @@
+# v2.1.15 · Auditoría transversal 10
+
+- `rtm-0121` Llagostins amb gavardina: corregida migración grave; elaboración trasladada desde Ingredientes, eliminados maridaje y texto editorial, y preparación reorganizada en 14 pasos.
+- `rtm-0108` Hummus de calabaza: limpiados encabezados y texto operativo incrustado en Ingredientes; tahina casera trasladada a Consejos; preparación reorganizada.
+- `rtm-0142` Guiso de garbanzos rápido (Thermomix): recompuestos parámetros Thermomix que estaban partidos en pasos independientes y eliminados pasos residuales de puntuación.
+- Control: 163 fichas / 163 IDs únicos.
+
 ## v2.1.14 · Auditoría transversal 9
 
 - `rtm-0139` Caramelos de goma – Webos Fritos: eliminados comentarios, navegación y contenido editorial incrustado en la preparación. Recuperados y separados los métodos tradicional y Thermomix, con sus parámetros documentados.
