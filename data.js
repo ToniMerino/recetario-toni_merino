@@ -1,5 +1,5 @@
-// Recetario Toni Merino · Versión 2.1.11 · 163 fichas verificadas · Lote 6 + auditoría de legibilidad
-window.RTM_DATA_VERSION = "2.1.12";
+// Recetario Toni Merino · Versión 2.1.13 · 163 fichas verificadas · Lote 6 + auditoría de fidelidad y legibilidad
+window.RTM_DATA_VERSION = "2.1.13";
 window.RECIPES = [
   {
     "id": "rtm-0001",
@@ -4507,7 +4507,7 @@ window.RECIPES = [
     "record_type": "recipe",
     "title": "Falafel (Thermomix)",
     "origin": "Archivo histórico Evernote · Transcripción normalizada",
-    "author": "",
+    "author": "Rosa Ardá",
     "type": "Falafel",
     "family": "Entrantes y aperitivos",
     "servings": "No indicado",
@@ -4535,24 +4535,24 @@ window.RECIPES = [
       "Cebollino picado"
     ],
     "steps": [
-      "- Primero tienes que hidratar los garbanzos .",
-      "Para ello, pesa la cantidad que necesites y ponlos en un bol con agua durante 24 horas . 2.- Con el vaso seco, haz la harina de garbanzos .",
-      "Para ello, pon 100gr de garbanzos secos en el vaso y tritura, en velocidad progresiva 5-7-9 durante 30 segundos , o hasta que veas que ya tienes los garbanzos hechos harina. 3.- Pon en el vaso todos los ingredientes: los garbanzos ya hidratados (bien lavados y escurridos), la cebolla, el ajo, el cilantro, el perejil, los cominos, la canela, el pimentón, la sal y la pimienta, y tritura programando 15 segundos a velocidad",
-      "",
-      "Abre la tapa, y con ayuda de la espátula, baja los restos de la tapa y del interior del vaso hacia las cuchillas y programa 5 segundos más, velocidad",
-      "4.- Añade una cucharada de harina de garbanzos y la levadura y programa 10 segundos, velocidad",
-      "",
-      "Debe quedar una masa grumosa algo húmeda, fácil de trabajar con las manos.",
-      "Deja esta masa reposar en la nevera unos 30 minutos . 5.- Pon la harina de garbanzo en un plato para rebozar. 6.- Con las manos engrasadas, haz bolas de masa del tamaño de una albóndiga grande, aplástalas un poco.",
-      "A mí, una vez aplastadas, me cubría la cuenca de la mano.",
-      "Pasa cada bola aplastada por la harina de garbanzo . 7.- Pon abundante aceite a calentar en una sartén.",
-      "Fríe hasta que estén doradas por ambos lados .",
-      "Cuando ya estén, sácalas a un plato con papel absorbente para que chupe el aceite que le sobra. 8.- Mientras se fríe el falafel, hacemos la salsa de yogurt: Para ello ponemos todos los ingredientes de la salsa en la TMX y mezclamos durante 15 segundos a velocidad",
-      "",
-      "Aquí tenemos otra salsa de yogurt, la Salsa Agria ."
+          "Pon los 250 g de garbanzos secos en un bol, cúbrelos con agua y déjalos hidratar durante 24 h. No uses garbanzos cocidos.",
+          "Con el vaso completamente seco, pon los 100 g de garbanzos secos destinados a la harina y tritura 30 s · velocidad progresiva 5-7-9, o hasta obtener harina. Reserva.",
+          "Pon en el vaso los garbanzos hidratados, bien lavados y escurridos, la cebolla, el ajo, el cilantro, el perejil, el comino, la canela, el pimentón, la sal y la pimienta.",
+          "Tritura 15 s · velocidad 5.",
+          "Abre el vaso y baja con la espátula los restos de la tapa y las paredes hacia las cuchillas.",
+          "Tritura 5 s · velocidad 6.",
+          "Añade 1 cucharada de la harina de garbanzos reservada y la levadura química.",
+          "Mezcla 10 s · velocidad 5. Debe quedar una masa grumosa, algo húmeda y fácil de trabajar con las manos.",
+          "Deja reposar la masa en la nevera unos 30 min.",
+          "Pon harina de garbanzos en un plato para el rebozado.",
+          "Con las manos ligeramente engrasadas, forma bolas del tamaño de una albóndiga grande y aplástalas ligeramente.",
+          "Pasa cada pieza por la harina de garbanzos.",
+          "Calienta abundante aceite en una sartén o cazo y fríe los falafel hasta que estén dorados por ambos lados.",
+          "Retíralos a un plato con papel absorbente para eliminar el exceso de aceite.",
+          "Para la salsa de yogur, pon el yogur, el cebollino y la sal en el vaso y mezcla 15 s · velocidad 4."
     ],
     "presentation": "Servir según se indica en la fuente; si no se especifica, presentación no indicada.",
-    "tips": "Se conservan los tiempos, temperaturas, reposos y advertencias incluidos en la preparación original. Conservación no especificada; pendiente de confirmar.",
+    "tips": "Los garbanzos del falafel deben estar hidratados, no cocidos. La fuente indica que pueden servirse templados o fríos y congelarse antes de freír. Se han restaurado únicamente los parámetros Thermomix documentados; se mantienen las cantidades de la transcripción histórica RTM.",
     "notes": "",
     "tags": [
       "Entrantesyaperitivos",
@@ -4605,22 +4605,27 @@ window.RECIPES = [
       "Sal"
     ],
     "steps": [
-      "Pon los garbanzos en agua a remojar el día anterior. Esta receta es con garbanzos hidratados y no sirven los garbanzos cocidos.",
-      "Lava bien las verduras, pela y trocea las cebollas y los ajos en trozos grandes. Quítale al ajo la semilla central.",
-      "Si no tienes harina de garbanzos tritura los 100 gr. de garbanzos secos en la thermomix a velocidad progresiva 5-7-9 durante treinta ( 30” ) o hasta que esten hechos harina. Pon en el vaso de la batidora o Thermomix los garbanzos hidratados y escurridos, las cebollas, los ajos, el perejil, el cilantro, la cucharadita de comino, una pizca de canela molida, el pimentón o cayena, la sal, la pimienta y el aceite de oliva.",
-      "Tritura veinticinco ( 25” ) segundos a velocidad",
-      "Abre la tapa y con ayuda de una lengua o espátula baja los restos salpicados por el vaso y la tapa. Cierra y programa de nuevo diez ( 10” ) segundos a velocidad",
-      "En el caso de que sea con batidora, muele hasta conseguir una pasta ligeramente grumosa.",
-      "Añade al vaso una cucharada colmada de harina de garbanzos y la levadura química. Programa diez (10”) segundo a velocidad",
-      "Con la batidora sólo tienes que batir para mezclar bien. La masa quedará un poco basta, pero fácil de moldear.",
-      "Echa la masa en un recipiente y la dejas reposar en la nevera al menos media (30′) hora. Pasado ese tiempo haz bolas como para hacer albóndigas, úntate las manos con un poco de aceite para que no se te pegue la masa a ellas.",
-      "También las puedes aplastar como si fuesen pequeñas hamburguesas. Pon harina de garbanzos en un plato y las pasar por ella para freírlas en abundante aceite bien caliente hasta que estén bien doradas.",
-      "Resérvalas sobre papel absorbente para retirar el exceso de aceite. Elaboración de la receta de Salsa de Yogur Pela el ajo y lo echas en un mortero con el tomillo, las especias, una pizca de sal y una cucharada de aceite de oliva.",
-      "Muele bien todo hasta que forme una pasta. Pica la hierbabuena muy finita.",
-      "En un bol o cuenco echa el yogur y lo bates bien, añádele una cucharada de zumo de limón, la cucharada de aceite de oliva, lo que has triturado en el mortero y la hierbabuena, mézclalo todo muy bien. Si te gusta que la salsa esté muy fina puedes pasarla por la Thermomix o batidora. ¿Listos para comer?"
+          "Pon los garbanzos en remojo el día anterior. Deben estar hidratados, no cocidos.",
+          "Lava las verduras. Pela y trocea las cebollas y los ajos en trozos grandes; retira al ajo el germen central.",
+          "Si no tienes harina de garbanzos, pon los 100 g de garbanzos secos en el vaso y tritura hasta obtener harina. Reserva.",
+          "Pon en el vaso los garbanzos hidratados y escurridos, las cebollas, los ajos, el perejil, el cilantro, el comino, la canela, el pimentón o cayena, la sal, la pimienta y el aceite de oliva.",
+          "Tritura 25 s · velocidad 5.",
+          "Baja con la espátula los restos de las paredes y la tapa hacia las cuchillas.",
+          "Tritura 10 s · velocidad 6.",
+          "Añade 1 cucharada colmada de harina de garbanzos y la levadura química.",
+          "Mezcla 10 s · velocidad 5. La masa debe quedar algo basta, pero fácil de moldear.",
+          "Pasa la masa a un recipiente y déjala reposar en la nevera al menos 30 min.",
+          "Úntate las manos con un poco de aceite y forma bolas como albóndigas; si lo prefieres, aplástalas como pequeñas hamburguesas.",
+          "Pasa las piezas por harina de garbanzos.",
+          "Fríelas en abundante aceite bien caliente hasta que estén doradas.",
+          "Reserva sobre papel absorbente para retirar el exceso de aceite.",
+          "Para la salsa de yogur, pela el ajo y májalo en un mortero con el tomillo, las especias, una pizca de sal y 1 cucharada de aceite de oliva.",
+          "Pica muy fina la menta o hierbabuena.",
+          "Bate el yogur en un bol y añade el zumo de limón, el aceite restante, la mezcla del mortero y la menta. Mezcla bien.",
+          "Si quieres una salsa más fina, pásala brevemente por Thermomix o batidora."
     ],
     "presentation": "Servir según se indica en la fuente; si no se especifica, presentación no indicada.",
-    "tips": "Se conservan los tiempos, temperaturas, reposos y advertencias incluidos en la preparación original. Conservación no especificada; pendiente de confirmar.",
+    "tips": "La fuente admite formar bolas o pequeñas hamburguesas. Para una salsa de yogur más fina puede utilizarse Thermomix o batidora. Los parámetros 25 s · vel. 5, 10 s · vel. 6 y 10 s · vel. 5 se han recuperado mediante una copia contemporánea que atribuye expresamente la receta a De Camino a Mi Cocina; no se han añadido otros parámetros no documentados.",
     "notes": "",
     "tags": [
       "Entrantesyaperitivos",

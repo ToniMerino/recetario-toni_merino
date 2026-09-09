@@ -1,4 +1,4 @@
-# Actualización v2.1.12 · Lote 6 + auditoría de fidelidad
+# Actualización v2.1.13 · Lote 6 + auditoría de fidelidad
 
 Catálogo: **163 fichas verificadas**. Se mantienen las 10 altas del Lote 6 (`rtm-0155` a `rtm-0164`) y se consolida la auditoría de fidelidad de contenido.
 

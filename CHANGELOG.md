@@ -1,3 +1,9 @@
+## v2.1.13 · Auditoría de fidelidad 8 · Falafel
+
+- `rtm-0085 Falafel (Thermomix)`: restaurados los parámetros Thermomix truncados documentados (15 s · vel. 5; 5 s · vel. 6; 10 s · vel. 5; salsa 15 s · vel. 4) y dividida la elaboración en 15 pasos operativos. Se mantiene la cantidad histórica RTM de 250 g de garbanzos para el falafel porque la versión actual de la fuente difiere en ese dato y no se sustituye silenciosamente el contenido maestro.
+- `rtm-0086 Falafel con salsa de yogur`: restaurados los parámetros truncados mediante una copia contemporánea que atribuye la receta a De Camino a Mi Cocina (25 s · vel. 5; 10 s · vel. 6; 10 s · vel. 5). Elaboración reorganizada en 18 pasos, separando falafel y salsa de yogur.
+- Criterio: completar solo datos respaldados por fuente; cuando una versión web actual difiere de la transcripción histórica, conservar el contenido RTM y documentar la discrepancia.
+
 ## v2.1.12 · Auditoría de legibilidad 7
 
 - rtm-0106 Hummus de alubias blancas y calabaza: separados ingredientes, preparación, presentación y consejos; eliminados textos promocionales y editoriales.
