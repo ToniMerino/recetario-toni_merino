@@ -1,4 +1,4 @@
-# Recetario Toni Merino v2.1.11
+# Recetario Toni Merino v2.1.12
 
 Lote 6 + auditoría de fidelidad. Catálogo con **163 fichas verificadas**.
 

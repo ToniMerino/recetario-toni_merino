@@ -1,4 +1,13 @@
-# v2.1.11 · Mejora de legibilidad · 2026-09-09
+## v2.1.12 · Auditoría de legibilidad 7
+
+- rtm-0106 Hummus de alubias blancas y calabaza: separados ingredientes, preparación, presentación y consejos; eliminados textos promocionales y editoriales.
+- rtm-0144 Hamburguesa de salmón: eliminados metadatos incrustados y preparación dividida en pasos operativos.
+- rtm-0146 Hamburguesas de lentejas y quinoa (Thermomix): eliminados textos del blog, recuperados los dos primeros pasos desplazados a Ingredientes y preparación reestructurada conservando parámetros Thermomix.
+- rtm-0138 Gofres al horno (Thermomix): eliminados metadatos editoriales y preparación normalizada en pasos breves.
+- rtm-0061 Ensaladilla de merluza y patatas paja: eliminada llamada promocional y preparación dividida para uso en cocina.
+- Criterio: cada paso contiene una acción principal o una secuencia corta coherente, sin perder información culinaria.
+
+# v2.1.12 · Mejora de legibilidad · 2026-09-09
 
 - `rtm-0059 · Dürüm turco de pollo`: preparación reestructurada de 4 bloques densos a 21 pasos operativos.
 - No se modifica la receta ni se añaden ingredientes: se conserva el contenido culinario de la fuente y se separan macerado, formado y congelación del pollo, salsas, cocción, montaje y hummus de acompañamiento.
@@ -145,7 +154,7 @@ Modo consulta por defecto y separación funcional del área de administración. 
 - `rtm-0151 Judías blancas con chorizo (Thermomix)`: separados ingredientes y preparación, eliminados metadatos residuales y normalizados raciones, tiempo y parámetros Thermomix.
 - `rtm-0152 Fondo de verduras concentrado`: eliminados HTML e imágenes incrustadas; restauradas cantidades, autora, tiempo, dificultad y secuencia completa desde la fuente original de Directo al Paladar.
 
-### v2.1.11 · Auditoría de legibilidad en cocina
+### v2.1.12 · Auditoría de legibilidad en cocina
 - Reestructuración sin pérdida de contenido de rtm-0034 Cocción de legumbres (Thermomix).
 - Reestructuración de rtm-0037 Cinta de lomo con sorpresa (Thermomix).
 - Reestructuración por elaboraciones de rtm-0038 Risotto de boletus.
