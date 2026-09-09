@@ -1,4 +1,10 @@
-## v2.1.13 · Auditoría de fidelidad 8 · Falafel
+## v2.1.14 · Auditoría transversal 9
+
+- `rtm-0139` Caramelos de goma – Webos Fritos: eliminados comentarios, navegación y contenido editorial incrustado en la preparación. Recuperados y separados los métodos tradicional y Thermomix, con sus parámetros documentados.
+- `rtm-0056` Donuts de Dan Lepard: divididos los dos pasos más densos de formado y fritura para mejorar la legibilidad en cocina sin eliminar información.
+- Barrido transversal de las 163 fichas: no quedan coincidencias de los patrones de contaminación editorial revisados (comentarios, publicación, publicidad, HTML, formularios).
+
+## v2.1.14 · Auditoría de fidelidad 8 · Falafel
 
 - `rtm-0085 Falafel (Thermomix)`: restaurados los parámetros Thermomix truncados documentados (15 s · vel. 5; 5 s · vel. 6; 10 s · vel. 5; salsa 15 s · vel. 4) y dividida la elaboración en 15 pasos operativos. Se mantiene la cantidad histórica RTM de 250 g de garbanzos para el falafel porque la versión actual de la fuente difiere en ese dato y no se sustituye silenciosamente el contenido maestro.
 - `rtm-0086 Falafel con salsa de yogur`: restaurados los parámetros truncados mediante una copia contemporánea que atribuye la receta a De Camino a Mi Cocina (25 s · vel. 5; 10 s · vel. 6; 10 s · vel. 5). Elaboración reorganizada en 18 pasos, separando falafel y salsa de yogur.
