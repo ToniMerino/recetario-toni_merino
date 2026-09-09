@@ -1,3 +1,19 @@
+# v2.1.11 · Mejora de legibilidad · 2026-09-09
+
+- `rtm-0059 · Dürüm turco de pollo`: preparación reestructurada de 4 bloques densos a 21 pasos operativos.
+- No se modifica la receta ni se añaden ingredientes: se conserva el contenido culinario de la fuente y se separan macerado, formado y congelación del pollo, salsas, cocción, montaje y hummus de acompañamiento.
+- Criterio editorial adoptado: cuando un paso acumule varias acciones independientes, dividirlo para facilitar la ejecución durante la cocina sin perder detalle.
+
+# v2.1.9 · Auditoría de fidelidad 5 · 2026-09-09
+
+- `rtm-0056` Donuts de Dan Lepard: eliminado un residuo editorial que había quedado dentro de Ingredientes.
+- `rtm-0059` Dürüm turco de pollo: eliminada la duplicación exacta del paso del hummus de acompañamiento.
+- `rtm-0077` Patatas bravas de Jordi Cruz: preparación reestructurada en pasos más legibles sin reducir el detalle culinario.
+- `rtm-0087` Fideuà de langostinos y calamares (Thermomix): descompuesto un bloque único en pasos operativos, preservando tiempos, Varoma, velocidades, giro inverso y ausencia de cubilete.
+- `rtm-0094` Fricandó de vedella amb bolets: eliminados restos `HTML Content` y navegación/promociones incrustadas.
+- `rtm-0127` Sípia amb pèsols: eliminados marcadores de imagen, texto social/editorial y enlaces; preparación reconstruida en 11 pasos culinarios conservando tiempos, picada, melsa, fumet y reposo.
+- Se mantiene la regla: la web puede adaptar estructura y legibilidad, pero no resumir contenido culinario sustantivo respecto de la fuente/ficha maestra.
+
 # v2.1.8 · Lote 6 + auditoría de fidelidad · 2026-09-09
 
 - Publicación consolidada de todas las correcciones de fidelidad realizadas sobre la base v2.1.7.
@@ -128,3 +144,11 @@ Modo consulta por defecto y separación funcional del área de administración. 
 - `rtm-0150 Garbanzos con gambas y arroz (Thermomix)`: eliminada basura de imágenes/HTML y restaurados los parámetros Thermomix completos desde la fuente original publicada.
 - `rtm-0151 Judías blancas con chorizo (Thermomix)`: separados ingredientes y preparación, eliminados metadatos residuales y normalizados raciones, tiempo y parámetros Thermomix.
 - `rtm-0152 Fondo de verduras concentrado`: eliminados HTML e imágenes incrustadas; restauradas cantidades, autora, tiempo, dificultad y secuencia completa desde la fuente original de Directo al Paladar.
+
+### v2.1.11 · Auditoría de legibilidad en cocina
+- Reestructuración sin pérdida de contenido de rtm-0034 Cocción de legumbres (Thermomix).
+- Reestructuración de rtm-0037 Cinta de lomo con sorpresa (Thermomix).
+- Reestructuración por elaboraciones de rtm-0038 Risotto de boletus.
+- Mayor granularidad de pasos en rtm-0041 Rape en romesco y rtm-0044 Lubina sobre pimientos confitados.
+- Normalización profunda de rtm-0092 Fondo claro de pollo: ingredientes separados de comentarios explicativos y preparación dividida en acciones operativas.
+- Criterio: conservar toda la información culinaria disponible, pero evitar párrafos densos durante la ejecución de la receta.
