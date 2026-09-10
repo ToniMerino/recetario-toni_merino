@@ -1,9 +1,9 @@
 {
   "name": "Recetario Toni Merino",
   "short_name": "Recetas",
-  "start_url": "./index.html",
+  "start_url": "./index.html?v=2.1.16-20260910",
   "display": "standalone",
   "background_color": "#f6f3ed",
   "theme_color": "#f6f3ed",
-  "description": "Recetario personal de Toni Merino · versión 2.1.10"
+  "description": "Recetario personal de Toni Merino · versión 2.1.16"
 }
