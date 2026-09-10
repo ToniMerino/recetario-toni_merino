@@ -1,3 +1,9 @@
+## v2.1.17 · Auditoría de legibilidad · lote amplio 2
+
+- Reestructuración conservadora de 24 fichas con pasos densos: se divide la preparación en acciones más manejables sin resumir ni alterar el contenido culinario.
+- Limpieza de una frase editorial no culinaria en Fideuà amb cloïsses.
+- Validación de 163 recetas e IDs únicos.
+
 # v2.1.15 · Auditoría transversal 10
 
 - `rtm-0121` Llagostins amb gavardina: corregida migración grave; elaboración trasladada desde Ingredientes, eliminados maridaje y texto editorial, y preparación reorganizada en 14 pasos.
@@ -181,7 +187,7 @@ Modo consulta por defecto y separación funcional del área de administración. 
 - Normalización profunda de rtm-0092 Fondo claro de pollo: ingredientes separados de comentarios explicativos y preparación dividida en acciones operativas.
 - Criterio: conservar toda la información culinaria disponible, pero evitar párrafos densos durante la ejecución de la receta.
 
-### v2.1.16 · Lote amplio de auditoría de legibilidad
+### v2.1.17 · Lote amplio de auditoría de legibilidad
 - Lote consolidado: 25 fichas revisadas desde v2.1.15.
 - Reestructuración de pasos densos sin eliminar ni añadir contenido culinario.
 - Se prioriza una acción o secuencia corta por paso para facilitar el uso en cocina.

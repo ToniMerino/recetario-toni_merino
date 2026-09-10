@@ -1,4 +1,4 @@
-// Recetario Toni Merino v2.1.16
+// Recetario Toni Merino v2.1.17
 // Service worker de transición: no almacena recursos y elimina cachés RTM antiguas.
 self.addEventListener("install", event => {
   self.skipWaiting();
