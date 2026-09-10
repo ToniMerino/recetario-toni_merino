@@ -180,3 +180,10 @@ Modo consulta por defecto y separación funcional del área de administración. 
 - Mayor granularidad de pasos en rtm-0041 Rape en romesco y rtm-0044 Lubina sobre pimientos confitados.
 - Normalización profunda de rtm-0092 Fondo claro de pollo: ingredientes separados de comentarios explicativos y preparación dividida en acciones operativas.
 - Criterio: conservar toda la información culinaria disponible, pero evitar párrafos densos durante la ejecución de la receta.
+
+### v2.1.16 · Lote amplio de auditoría de legibilidad
+- Lote consolidado: 25 fichas revisadas desde v2.1.15.
+- Reestructuración de pasos densos sin eliminar ni añadir contenido culinario.
+- Se prioriza una acción o secuencia corta por paso para facilitar el uso en cocina.
+- Revisadas en este lote: rtm-0051, rtm-0058, rtm-0070, rtm-0079, rtm-0129, rtm-0130, rtm-0145, rtm-0048, rtm-0057, rtm-0060, rtm-0062, rtm-0066, rtm-0067, rtm-0072, rtm-0074, rtm-0075, rtm-0076, rtm-0080, rtm-0089, rtm-0091, rtm-0099, rtm-0113, rtm-0117, rtm-0137 y rtm-0147.
+- rtm-0083 Escudella i carn d'olla de Nadal se mantiene señalada para recuperación de la fuente completa; no se inventa el tramo ausente.

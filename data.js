@@ -1,5 +1,5 @@
-// Recetario Toni Merino · Versión 2.1.15 · 163 fichas verificadas · Lote 6 + auditoría transversal de fidelidad y legibilidad
-window.RTM_DATA_VERSION = "2.1.15";
+// Recetario Toni Merino · Base v2.1.16 · lote amplio de legibilidad y fidelidad
+window.RTM_DATA_VERSION = "2.1.16";
 window.RECIPES = [
   {
     "id": "rtm-0001",
@@ -2426,13 +2426,18 @@ window.RECIPES = [
       "Corta la carne muy pequeña. Aliña con sal, pimienta, orégano y pimentón y deja macerar 30 min.",
       "Calienta el aceite y cocina la carne. Cuando cambie de color, añade los chorizos troceados. Da unas vueltas y retira la carne.",
       "En el mismo aceite, sofríe los ajos, cebollas y pimientos cortados durante unos 10 min a fuego bajo. Escurre las verduras y reserva el aceite.",
-      "Pon un poco del aceite reservado en la cazuela, añade el tomate y 125 ml de vino. Incorpora la carne y, cuando evapore el alcohol, añade las verduras. Cocina unos 5 min a fuego bajo, hasta que quede casi sin jugo. Deja enfriar.",
+      "Pon un poco del aceite reservado en la cazuela, añade el tomate y 125 ml de vino.",
+      "Incorpora la carne y, cuando evapore el alcohol, añade las verduras.",
+      "Cocina unos 5 min a fuego bajo, hasta que quede casi sin jugo.",
+      "Deja enfriar.",
       "Para la masa, mezcla harina, manteca, agua, 150 ml del aceite reservado, 50 ml de vino, sal y pimentón. Amasa 3 min.",
       "Amasa más rápido unos 8 min, añade la levadura desmenuzada y continúa hasta completar unos 12 min de amasado. Forma una bola.",
       "Deja reposar en un bol untado con aceite y tapado unos 60 min, hasta que doble volumen.",
       "Divide la masa en dos, dejando una parte algo mayor y reservando un pequeño trozo para decorar. Estira la parte mayor fina y colócala en una bandeja untada.",
       "Reparte el relleno sin llegar a los bordes. Estira la segunda masa y cubre. Cierra con la masa inferior, haz un orificio central y decora con la masa reservada.",
-      "Pinta con huevo batido y un poco de agua. Hornea primero a 200 °C, calor arriba y abajo, en la parte baja durante 20 min. Baja a 180 °C, sube la bandeja al centro y hornea unos 25 min más."
+      "Pinta con huevo batido y un poco de agua.",
+      "Hornea primero a 200 °C, calor arriba y abajo, en la parte baja durante 20 min.",
+      "Baja a 180 °C, sube la bandeja al centro y hornea unos 25 min más."
     ],
     "presentation": "Deja templar antes de cortar.",
     "tips": "Si se tuesta demasiado por encima, cubre con papel de aluminio.",
@@ -2590,10 +2595,14 @@ window.RECIPES = [
       "50 g de aceite de oliva virgen extra."
     ],
     "steps": [
-      "Pon la cebolleta en trozos grandes en el vaso y pica 20 s · vel 5. Retira y reserva.",
-      "Sin lavar el vaso, añade tomate, cilantro, chiles, sal y pimienta. Tritura 1 min · vel 5.",
-      "Incorpora aguacate, Tabasco, zumo de limón y aceite y programa 1 min · vel 5.",
-      "Vierte en un cuenco, añade la cebolleta reservada y mezcla bien."
+      "Pon la cebolleta en trozos grandes en el vaso.",
+      "Pica 20 s · velocidad 5. Retira y reserva.",
+      "Sin lavar el vaso, añade tomate, cilantro, chiles, sal y pimienta.",
+      "Tritura 1 min · velocidad 5.",
+      "Incorpora aguacate, Tabasco, zumo de limón y aceite.",
+      "Programa 1 min · velocidad 5.",
+      "Vierte en un cuenco.",
+      "Añade la cebolleta reservada y mezcla bien."
     ],
     "presentation": "Sirve con nachos. La fuente también propone tortillas de maíz, tacos mexicanos o dados de pescado rebozados.",
     "tips": "Guarda el hueso del aguacate y colócalo sobre el guacamole terminado para retrasar el oscurecimiento.",
@@ -2895,7 +2904,8 @@ window.RECIPES = [
       "Incorporamos la mezcla de ingredientes líquidos a los secos y batimos con una varilla manual hasta obtener una masa homogénea.",
       "Introducimos la masa en un recipiente, que debe tener el formato de los “donuts”, rellanando ¾ partes del mismo. Introducimos en el horno precalentado a 180 °C durante 9 min.",
       "Retiramos del horno y dejamos los “donuts” dentro del recipiente durante 5 min, transcurrido este tiempo ya podemos desmoldarlos y ponerlos sobre una rejilla hasta que se hayan enfriado.",
-      "Con ayuda de una jeringuilla, o una boquilla de rellenar, cogemos la crema de cacao y vamos haciendo pequeñas inserciones en la parte inferior del “donut”. Finalmente espolvoreamos con azúcar glasé."
+      "Con ayuda de una jeringuilla, o una boquilla de rellenar, cogemos la crema de cacao y vamos haciendo pequeñas inserciones en la parte inferior del “donut”.",
+      "Finalmente espolvoreamos con azúcar glasé."
     ],
     "presentation": "",
     "tips": "",
@@ -2963,14 +2973,19 @@ window.RECIPES = [
       "Para La Salsa De Yogur: Opcional: picante al gusto"
     ],
     "steps": [
-      "Adobar la pechuga de pollo, cortada en horizontal en tiras finas, con una mezcla de las especias al gusto, zumo de limón, sal y aceite de oliva. Lo ideal es dejarla macerando toda la noche en la nevera en un bol tapada con film",
-      "Hacer mientras tanto la salsa de yogur mezclando todos sus ingredientes.",
-      "Picar el tomate, el pepino, la cebolla morada y el perejil muy pequeñitos y aliñarlos con aceite de oliva, sal y pimienta negra.",
-      "Por otro lado, asar las verduras, cortadas en rodajas pequeñas en el horno a 180 °C con un poco de pimentón, aceite, sal, pimienta negra y muy poquita nuez moscada. En 15 min más o menos deberían estar listas.",
-      "Insertar las tiras de pollo adobadas en una brocheta, apretándolas lo más posible para que estén muy pegadas y ponerlas en el horno a 220 °C. Hay que ir dando vueltas a la brocheta para que se dore por todas partes; hacerlo en una barbacoa sería lo ideal.",
-      "Cuando esté todo listo sólo habrá que tostar el pan para que se quede crujiente por fuera, abrirlo por la mitad y rellenarlo con la ensalada de verduras frescas, un poco de salsa de yogur, la carne, las verduras asadas y un poco más de salsa de yogur y el queso feta desmigado. Si alguien quiere darle un toque de alegría se puede incorporar algún picante.",
-      "Si haces esta receta, comparte el resultado en tus redes sociales con la etiqueta #RecetasComidista. Y si te sale mal, quéjate a la Defensora del Cocinero enviando un mail a",
-      "defensoracomidista@gmail.com"
+      "Corta la pechuga de pollo horizontalmente en tiras finas.",
+      "Mezcla las especias al gusto con zumo de limón, sal y aceite de oliva.",
+      "Adoba el pollo con la mezcla. Lo ideal es dejarlo macerar toda la noche en la nevera, en un bol tapado con film.",
+      "Prepara la salsa de yogur mezclando todos sus ingredientes.",
+      "Pica muy finos el tomate, el pepino, la cebolla morada y el perejil.",
+      "Aliña las verduras frescas con aceite de oliva, sal y pimienta negra.",
+      "Corta las verduras para asar en rodajas pequeñas.",
+      "Hornéalas a 180 °C con un poco de pimentón, aceite, sal, pimienta negra y muy poca nuez moscada durante unos 15 min, o hasta que estén listas.",
+      "Inserta las tiras de pollo adobadas en una brocheta, apretándolas para que queden muy juntas.",
+      "Hornea la brocheta a 220 °C, girándola para que se dore por todas partes. También puede hacerse en barbacoa.",
+      "Tuesta el pan hasta que quede crujiente por fuera y ábrelo por la mitad.",
+      "Rellena con la ensalada de verduras frescas, un poco de salsa de yogur, la carne y las verduras asadas.",
+      "Termina con más salsa de yogur y queso feta desmigado. Si se desea, añade algún picante."
     ],
     "presentation": "Tuesta el pan y sirve el döner relleno con las verduras frescas, el pollo, las verduras asadas, la salsa de yogur y el queso feta.",
     "tips": "",
@@ -3109,7 +3124,9 @@ window.RECIPES = [
       "175 g de pipas de calabaza"
     ],
     "steps": [
-      ": Amasar todos los ingredientes excepto la masa madre y la levadura, que las incorporaremos cuando falten 5 min para acabar el amasado. Acabar de amasar en velocidad lenta durante dos minutos incorporando la casi totalidad de la mezcla de pipas. La temperatura de la masa debe ser de 23-24 °C.",
+      ": Amasar todos los ingredientes excepto la masa madre y la levadura, que las incorporaremos cuando falten 5 min para acabar el amasado.",
+      "Acabar de amasar en velocidad lenta durante dos minutos incorporando la casi totalidad de la mezcla de pipas.",
+      "La temperatura de la masa debe ser de 23-24 °C.",
       "Dejar reposar los pastones de masa durante 1 hora.",
       "Dividir en divisora manual o manualmente piezas de 50 g de peso en masa. Bolear para formar piezas bien redondas.",
       "Mojar en un trapo limpio y húmedo las piezas y después rebozarlas con el resto de la mezcla de pipas.",
@@ -3215,8 +3232,10 @@ window.RECIPES = [
     ],
     "steps": [
       "Empieza preparando el pesto, puedes tostar un poco los piñones para potenciar su sabor, hazlo en una sartén sin engrasar y a temperatura media, moviéndolos para que se hagan de forma homogénea.",
-      "A continuación pon los piñones en el vaso de la batidora y añade la rúcula bien limpia y seca. Pela el diente de ajo y añádelo también, y a continuación el queso finamente rallado, el zumo de limón y sal al gusto.",
-      "Añade un par de cucharadas de aceite de oliva virgen extra para empezar a triturar, el pesto no debe quedar muy fino. Añade más aceite hasta conseguir la cantidad de pesto necesaria para los cuatro platos.",
+      "A continuación pon los piñones en el vaso de la batidora y añade la rúcula bien limpia y seca.",
+      "Pela el diente de ajo y añádelo también, y a continuación el queso finamente rallado, el zumo de limón y sal al gusto.",
+      "Añade un par de cucharadas de aceite de oliva virgen extra para empezar a triturar, el pesto no debe quedar muy fino.",
+      "Añade más aceite hasta conseguir la cantidad de pesto necesaria para los cuatro platos.",
       "Pon una olla con abundante agua a calentar. Cuando rompa a hervir añade la sal y a continuación los",
       "espaguetis",
       ". Cuécelos hasta que estén al dente. Escúrrelos y vierte el pesto de rúcula reservando cuatro cucharadas para el emplatado.",
@@ -3435,7 +3454,8 @@ window.RECIPES = [
       "Retira la mariposa. Incorpora la harina, la levadura y la sal y mezcla 10 s · vel. 3, o hasta que quede integrado.",
       "Reserva la masa en un cuenco en la nevera durante 1 h para que coja consistencia.",
       "Forma bolas pequeñas y rebózalas bien en azúcar glas. Colócalas separadas sobre una bandeja con papel de horno o base de silicona.",
-      "Precalienta el horno a 180 °C y hornea unos 10 min, hasta que se abran y queden craqueladas. Deben quedar crujientes por fuera y blandas por dentro; evita un exceso de horneado para que no se sequen."
+      "Precalienta el horno a 180 °C y hornea unos 10 min, hasta que se abran y queden craqueladas.",
+      "Deben quedar crujientes por fuera y blandas por dentro; evita un exceso de horneado para que no se sequen."
     ],
     "presentation": "Sirve las galletas frías, como acompañamiento de café o té.",
     "tips": "La masa cambia de textura tras 1 h en la nevera; el reposo facilita el formado de las galletas.",
@@ -3490,7 +3510,10 @@ window.RECIPES = [
       "7 min, temperatura varoma, velocidad 4",
       ".",
       "Con la espátula sacamos el cestillo con las bolitas. Cuando se hayan enfriado un poco las desenvolvemos y las secamos, si vemos que están un poco húmedas, con papel de cocina.",
-      "Ponemos abundante aceite en un cazo. Cuando esté bien caliente freímos las bolitas. Estarán fritas en pocos minutos (veremos que enseguida se crea una superficie crujiente y un poco dorada). Las sacamos a un plato con papel para fritura y las servimos inmediatamente.",
+      "Ponemos abundante aceite en un cazo.",
+      "Cuando esté bien caliente freímos las bolitas.",
+      "Estarán fritas en pocos minutos (veremos que enseguida se crea una superficie crujiente y un poco dorada).",
+      "Las sacamos a un plato con papel para fritura y las servimos inmediatamente.",
       "La salsa de soja le va fenomenal a este plato.",
       "Información nutricional por ración",
       "Calorías: 230",
@@ -3646,9 +3669,16 @@ window.RECIPES = [
       "Guarnición: Sal"
     ],
     "steps": [
-      "Cocer un minuto las colas de las gambas en agua con bastante sal. Es importante que no se pasen. Pelarlas y ponerlas en un bol pequeño. Añadirles las especias, los dientes de ajo pelados y aplastados con la hoja de un cuchillo, una pizca de sal y abundante aceite de girasol. Mezclar bien, tapar y reservar en la nevera.",
-      "Triturar a fondo todos los ingredientes del gazpacho. Si queda muy espeso, añadirle hielo o agua muy fría y volver a triturar. Pasarlo por el chino si se quiere fino. Dejar reposar en la nevera un mínimo de tres horas.",
-      "Remover las gambas y desechar los ajos. Corregir de sal el gazpacho y servirlo bien frío acompañado de del marisco."
+      "Cuece las colas de gamba 1 min en agua con bastante sal, procurando que no se pasen.",
+      "Pela las gambas y ponlas en un bol pequeño.",
+      "Añade las especias, los dientes de ajo pelados y aplastados con la hoja de un cuchillo, una pizca de sal y abundante aceite de girasol.",
+      "Mezcla bien, tapa y reserva las gambas en la nevera.",
+      "Tritura a fondo todos los ingredientes del gazpacho.",
+      "Si queda muy espeso, añade hielo o agua muy fría y vuelve a triturar.",
+      "Pasa el gazpacho por el chino si quieres una textura más fina.",
+      "Deja reposar en la nevera un mínimo de 3 h.",
+      "Remueve las gambas y desecha los ajos.",
+      "Corrige de sal el gazpacho y sírvelo bien frío acompañado de las gambas."
     ],
     "presentation": "",
     "tips": "",
@@ -3747,13 +3777,22 @@ window.RECIPES = [
       "150 g. de agua para el vapor"
     ],
     "steps": [
-      "Ponemos en el vaso del Thermomix 50 g. de agua y la levadura. Calentamos 30 segundos, velocidad 37 °C, velocidad 2. Añadimos 50 g. de harina y mezclamos 10 segundos, velocidad 4. Dejamos reposar 20 min en el propio vaso.",
-      "Añadimos el resto del agua (80 g.), el resto de harina (270 g. ), la leche, el aceite, la sal y la lecitina de soja y mezclamos 30 segundos, velocidad 3. Seguidamente amasamos 10 min, función amasar. Dejamos reposar en el propio vaso hasta que doble el volumen. (1-2 horas).",
+      "Ponemos en el vaso del Thermomix 50 g. de agua y la levadura.",
+      "Calentamos 30 segundos, velocidad 37 °C, velocidad 2.",
+      "Añadimos 50 g. de harina y mezclamos 10 segundos, velocidad 4.",
+      "Dejamos reposar 20 min en el propio vaso.",
+      "Añadimos el resto del agua (80 g.), el resto de harina (270 g. ), la leche, el aceite, la sal y la lecitina de soja y mezclamos 30 segundos, velocidad 3.",
+      "Seguidamente amasamos 10 min, función amasar.",
+      "Dejamos reposar en el propio vaso hasta que doble el volumen. (1-2 horas).",
       "Desgasificamos la masa programando 1 minuto, función amasar y retiramos la masa a una superficie enharinada. Damos forma de bola y cortamos en 6 porciones.",
-      "Formamos bolas con cada una de las porciones y las aplastamos con ayuda de un rodillo. Colocamos cada círculo sobre un trozo de papel de hornear y doblamos cada uno de ellos por la mitad, poniendo un trozo de papel de hornear en medio.",
+      "Formamos bolas con cada una de las porciones y las aplastamos con ayuda de un rodillo.",
+      "Colocamos cada círculo sobre un trozo de papel de hornear y doblamos cada uno de ellos por la mitad, poniendo un trozo de papel de hornear en medio.",
       "Colocamos dos gua baos repartidos en el Varoma, 4 en la bandeja y 2 en el recipiente Varoma.",
       "Dejamos reposar de nuevo hasta que doblen el volumen. Unos 30 min.",
-      "Ponemos en el vaso del Thermomix 150 g. de agua. Tapamos el vaso y colocamos el Varoma en su posición. Programamos 13 min, temperatura Varoma, velocidad 1. Retiramos el Varoma con cuidado y dejamos enfriar los gua baos 10 min.",
+      "Ponemos en el vaso del Thermomix 150 g. de agua.",
+      "Tapamos el vaso y colocamos el Varoma en su posición.",
+      "Programamos 13 min, temperatura Varoma, velocidad 1.",
+      "Retiramos el Varoma con cuidado y dejamos enfriar los gua baos 10 min.",
       "Rellena los",
       "gua baos",
       "como más te gusten y a disfrutar!"
@@ -3858,7 +3897,9 @@ window.RECIPES = [
       ", presionando. Escurrir y enjuagar los garbanzos.",
       "Triturar los garbanzos con media cebolla, la guindilla sin semillas, un poco de orégano (o tomillo). Añadir el calabacín, el huevo y la harina,",
       "amasando bien",
-      "hasta conseguir una mezcla homogénea. No echar toda la harina de golpe, ir poco a poco hasta que quede maleable, pero no muy seca. Salpimentar al gusto y dejar reposar en la nevera media hora.",
+      "hasta conseguir una mezcla homogénea.",
+      "No echar toda la harina de golpe, ir poco a poco hasta que quede maleable, pero no muy seca.",
+      "Salpimentar al gusto y dejar reposar en la nevera media hora.",
       "Formar unas 4-6 hamburguesas de más o menos el mismo tamaño, de unos 1,5-2 cm de grosor. Rebozar en el pan rallado y cocinar",
       "a la plancha con un poco de aceite",
       "caliente, unos 8-10 min por cada lado, dándoles la vuelta con cuidado."
@@ -3921,7 +3962,8 @@ window.RECIPES = [
       "Ligar la mezcla con el huevo batido y dejar reposar unos minutos.",
       "Hasta aquí se puede hacer con antelación.",
       "Si la pasta se ha quedado muy seca, humedecerla con un chorrito de leche. Preparar un plato con harina y calentar una sartén con aceite.",
-      "Formar las hamburguesas con las manos, pasarlas ligeramente por harina y tostarlas en la sartén por los dos lados hasta que se doren. Servirlas con la salsa de yogur y ensalada verde."
+      "Formar las hamburguesas con las manos, pasarlas ligeramente por harina y tostarlas en la sartén por los dos lados hasta que se doren.",
+      "Servirlas con la salsa de yogur y ensalada verde."
     ],
     "presentation": "",
     "tips": "",
@@ -3977,9 +4019,12 @@ window.RECIPES = [
       "Añadimos el perejil al salteado y especiamos los garbanzos.",
       "Trituramos los garbanzos con la batidora hasta conseguir una masa cremosa y homogénea. Probamos y, si fuera necesario, salpimentamos más.",
       "A continuación añadimos el salteado y mezclamos.",
-      "Para dar más densidad y facilitar la manipulación de las hamburguesas, añadimos dos cucharadas soperas de harina. Yo recomiendo que sea harina de garbanzo, pero puede ser de otro tipo. Si son tus primeras hamburguesas vegetales caseras, te recomiendo que añadas una cucharada más, porque así te será más fácil manipularla y darle forma después.",
+      "Para dar más densidad y facilitar la manipulación de las hamburguesas, añadimos dos cucharadas soperas de harina.",
+      "Yo recomiendo que sea harina de garbanzo, pero puede ser de otro tipo.",
+      "Si son tus primeras hamburguesas vegetales caseras, te recomiendo que añadas una cucharada más, porque así te será más fácil manipularla y darle forma después.",
       "Preparamos un plato con pan rallado o harina, para rebozar.",
-      "Cogemos una porción de masa y le damos forma de hamburguesa. Lo colocamos encima del pan rallado y rebozamos por todos los costados, presionando ligeramente y damos forma con cuidado.",
+      "Cogemos una porción de masa y le damos forma de hamburguesa.",
+      "Lo colocamos encima del pan rallado y rebozamos por todos los costados, presionando ligeramente y damos forma con cuidado.",
       "Repetimos el proceso hasta terminar con la masa (saldrán unas 2 o 3 hamburguesas medianas).",
       "Añadimos la harina a los garbanzos, para espesar la masa de las hamburguesas vegetales.",
       "Si no tienes mucha práctica haciendo hamburguesas, te recomiendo que una vez tengas las hamburguesas hechas, las metas unos 10 o 15 min en el congelador para que la hamburguesa coja textura y sea más fácil saltearla.",
@@ -4150,11 +4195,20 @@ window.RECIPES = [
       "Para El Adobo: unas hojas de perejil y de tomillo"
     ],
     "steps": [
-      "A primera hora de la mañana ponemos todos los ingredientes del adobo en un bote y los agitamos, salpimentamos el lomo de cerdo y lo sumergimos en este caldo hasta el momento de preparar nuestra receta.",
-      "Pelar las patatas y la cebolla y con una mandolina cortar en rodajas finas.",
-      "En una fuente de horno poner una capa de patatas y salpimentar. A continuación ponemos otra de cebolla y repetimos la operación con otra de patatas.",
-      "En una sartén poner 2 cucharada sopera de aceite de oliva y cuando esté bien caliente marcamos la pieza de lomo por ambos lados para sellarla. La sacamos de la sartén y la colocamos encima de las patatas. En ese aceite que tenemos caliente echamos todo el adobo y le damos vueltas hasta que se evapora el alcohol, a continuación rociamos con el mismo la carne y las patatas que tenemos en la fuente.",
-      "Hornear a 220 °C, calor arriba y abajo durante 40 o 45 min. Pasados unos 35 min si tenemos la carne dorada cubrimos con un papel de aluminio y bajamos la temperatura a 185 °C. Las temperaturas y tiempos siempre son orientativos pues dependerá de nuestro horno y del grosor de la carne."
+      "Prepara el adobo a primera hora de la mañana: pon todos sus ingredientes en un bote y agítalo.",
+      "Salpimienta el lomo de cerdo.",
+      "Sumerge el lomo en el adobo y mantenlo así hasta el momento de cocinar.",
+      "Pela las patatas y la cebolla y córtalas en rodajas finas con una mandolina.",
+      "En una fuente de horno, coloca una capa de patatas y salpimienta.",
+      "Añade una capa de cebolla y termina con otra capa de patatas.",
+      "Calienta 2 cucharadas soperas de aceite de oliva en una sartén.",
+      "Cuando esté bien caliente, marca la pieza de lomo por ambos lados para sellarla.",
+      "Coloca el lomo sobre las patatas.",
+      "Vierte todo el adobo en la sartén caliente y remueve hasta que se evapore el alcohol.",
+      "Rocía la carne y las patatas con el adobo reducido.",
+      "Hornea a 220 °C, calor arriba y abajo, durante 40-45 min.",
+      "A partir de unos 35 min, si la carne ya está dorada, cúbrela con papel de aluminio y baja la temperatura a 185 °C.",
+      "Ajusta tiempos y temperaturas al horno y al grosor de la carne."
     ],
     "presentation": "",
     "tips": "Los tiempos y temperaturas de horno son orientativos y dependen del grosor de la carne y del horno.",
@@ -4917,7 +4971,8 @@ window.RECIPES = [
       "Escurrir bien la gasa y estirarla sobre la superficie de trabajo. Debe quedar doble al menos para proteger bien el foie de la sal.",
       "Colocar encima el hígado bien abierto. Espolvorear con pimienta negra recién molida y darle la vuelta para dejar cara arriba la parte que no tiene aún nada.",
       "Espolvorear con nuez moscada (mejor si es recién molida), con el azúcar y la canela. Terminar con pimienta negra recién molida.",
-      "Ahora formaremos con el foie un rulo presionando bien para que no queden partes huecas. Una vez tengamos el rulo formado, cerraremos sobre el la gasa presionando bien cerrando el rulo.",
+      "Ahora formaremos con el foie un rulo presionando bien para que no queden partes huecas.",
+      "Una vez tengamos el rulo formado, cerraremos sobre el la gasa presionando bien cerrando el rulo.",
       "Luego cerraremos bien los laterales. Lo que necesitamos es que quede bien prieto y no quede ninguna parte del foie sin cubrir.",
       "Sobre un recipiente lo suficientemente grande, poner una capa gruesa de sal. Colocar sobre ella el foie y cubrir completamente con sal gorda.",
       "Dejar en la nevera durante unas 30-32 horas en función del tamaño. Una vez pasado este tiempo.",
@@ -5346,9 +5401,12 @@ window.RECIPES = [
       "Cuando llevemos incorporada la mitad de la harina hay que seguir amasando a mano. Aquí es cuando el niño ya está gozando con las manos en la masa.",
       "Manos que habremos esterilizado antes. Para saber cuando está la masa: no se nos debe quedar pegada en los dedos, pero tampoco como una piedra.",
       "Dejar reposar la masa una hora en el frigorífico tapada con un film transparente. Precalentar el horno a 180˚",
-      "Poner la masa entre dos trozos de plástico de cocina transparente, y con la ayuda de un rodillo, formar una lamina de medio centímetro de espesor. Cortar las galletas con moldes divertidos y colocarlas con cuidado en una bandeja de horno antiadherente.",
-      "Se hornean en aproximadamente 15 minutos, hasta que se vean doradas pero todavía un poco blandas, porque así cuando enfrían cogen un punto delicioso. Mi bandeja de horno no es muy grande, y tuve que hornear tres veces.",
-      "A continuación dejar enfriar en una rejilla y decorarlas al gusto, con azúcar glas o con chocolate fundido. En esta ocasión a la mitad de la masa le incorporé una cucharada de levadura y unas pepitas de chocolate, porque las nenas querían unos corazones con pintitas de choco, y así con una modificación mínima, conseguí otro tipo de galletas un poco diferentes.",
+      "Poner la masa entre dos trozos de plástico de cocina transparente, y con la ayuda de un rodillo, formar una lamina de medio centímetro de espesor.",
+      "Cortar las galletas con moldes divertidos y colocarlas con cuidado en una bandeja de horno antiadherente.",
+      "Se hornean en aproximadamente 15 minutos, hasta que se vean doradas pero todavía un poco blandas, porque así cuando enfrían cogen un punto delicioso.",
+      "Mi bandeja de horno no es muy grande, y tuve que hornear tres veces.",
+      "A continuación dejar enfriar en una rejilla y decorarlas al gusto, con azúcar glas o con chocolate fundido.",
+      "En esta ocasión a la mitad de la masa le incorporé una cucharada de levadura y unas pepitas de chocolate, porque las nenas querían unos corazones con pintitas de choco, y así con una modificación mínima, conseguí otro tipo de galletas un poco diferentes.",
       "Lo mejor: que los niños ofrezcan su trabajo como regalo. La cocina es generosa, y ellos deben aprender desde pequeños a serlo.",
       "No puede haber regalo mejor para ofrecer a los amigos o a su profesor ¿no creéis? Ah!",
       "Y lo que digo siempre, la cocina se recoge en-tre-to-dos. No valen escaqueos."
@@ -6288,7 +6346,8 @@ window.RECIPES = [
     "steps": [
       "Rehoga las mazorcas y las verduras cortadas en dados pequeños en un wok con un poco de aceite, hasta que estén ligeramente cocidas pero aún crujientes. Salpimienta.",
       "Mezcla el queso fresco con la leche evaporada y sazona con sal, pimienta y un poco de nuez moscada.",
-      "En una fuente de horno, reparte en la base unas cucharadas de salsa de queso. Coloca 2 placas de lasaña pasadas por agua, añade parte de las verduras, 4 cucharadas de tomate frito y un poco de orégano.",
+      "En una fuente de horno, reparte en la base unas cucharadas de salsa de queso.",
+      "Coloca 2 placas de lasaña pasadas por agua, añade parte de las verduras, 4 cucharadas de tomate frito y un poco de orégano.",
       "Repite las capas y termina con una capa de lasaña.",
       "Cubre con el resto de la salsa de queso fresco y espolvorea con queso rallado.",
       "Hornea 25-30 min a 180 °C, con el horno precalentado, hasta que la superficie esté ligeramente dorada."
@@ -6832,10 +6891,16 @@ window.RECIPES = [
       "Sal, si es necesario"
     ],
     "steps": [
-      "Calienta 500 ml de agua y, cuando esté a punto de hervir, añade el vinagre. Cuando hierva, escalda los tomates secos 5 min.",
-      "Tuesta las almendras en una sartén y añade los piñones al final, hasta que queden dorados.",
-      "Escurre y seca bien los tomates. Tritúralos con el resto de ingredientes hasta obtener la textura deseada. En Thermomix: 4 s · velocidad 6; prolonga unos segundos si quieres una textura más fina.",
-      "Guarda el pesto en un bote hermético, cubre con aceite y conserva en el frigorífico."
+      "Calienta 500 ml de agua.",
+      "Cuando esté a punto de hervir, añade el vinagre.",
+      "Cuando hierva, incorpora los tomates secos y escáldalos 5 min.",
+      "Tuesta las almendras en una sartén.",
+      "Añade los piñones al final y tuesta hasta que queden dorados.",
+      "Escurre y seca bien los tomates.",
+      "Tritura los tomates con el resto de ingredientes hasta obtener la textura deseada.",
+      "En Thermomix: 4 s · velocidad 6; prolonga unos segundos si quieres una textura más fina.",
+      "Guarda el pesto en un bote hermético.",
+      "Cubre con aceite y conserva en el frigorífico."
     ],
     "presentation": "Servir en bruschettas, con pasta o como acompañamiento de carnes.",
     "tips": "La fuente indica unos 10 días de conservación en frigorífico. Si se usan tomates secos en aceite no es necesario escaldarlos. También puede congelarse.",
@@ -6894,12 +6959,19 @@ window.RECIPES = [
       "Unas hojas de menta"
     ],
     "steps": [
-      "Ponemos en el vaso el ajo. la guindilla y el perejil con un poco de sal. Trituramos 5 segundos a velocidad 7. Bajamos los restos y repetimos la operación.",
-      "Añadimos ahora el resto de ingredientes de las albóndigas y mezclamos 6 segundos, velocidad 5. . Comprobamos que ha quedado bien mezclado. No queremos una pasta muy pasada tipo puré, sino que se perciban los trozos de langostino y salmón. Si queréis más pasado podéis programar un par de segundos más a velocidad 5.",
-      "Formamos las albóndigas. Para ello nos mojamos las manos con agua o aceite y las vamos formando.",
-      "Las rebozamos en harina y las freímos en abundante aceite caliente. Con freírlas unos 4 minutos será suficiente (2 minutos por cada lado).",
-      "Ponemos en el vaso limpio todos los ingredientes y mezclamos 5 segundos, velocidad 3 1/2 . Y ahora programamos 2 minutos, temperatura 40º, velocidad 3 1/2.",
-      "Servimos inmediatamente las albóndigas acompañadas de la salsa. A mí como más me gusta es poner una hoja de lechuga, encima una hoja de menta, la albóndigas y encima el cebollino. Después vamos mojando en la salsa… ¡¡irresistibles!!"
+      "Pon en el vaso el ajo, la guindilla, el perejil y un poco de sal.",
+      "Tritura 5 s · velocidad 7. Baja los restos y repite la operación.",
+      "Añade el resto de ingredientes de las albóndigas.",
+      "Mezcla 6 s · velocidad 5. Comprueba la textura: deben percibirse trozos de langostino y salmón, no quedar como un puré.",
+      "Si quieres una textura más fina, programa un par de segundos más · velocidad 5.",
+      "Forma las albóndigas con las manos humedecidas con agua o aceite.",
+      "Reboza las albóndigas en harina.",
+      "Fríelas en abundante aceite caliente unos 4 min en total, aproximadamente 2 min por cada lado.",
+      "Con el vaso limpio, añade todos los ingredientes de la salsa.",
+      "Mezcla 5 s · velocidad 3½.",
+      "Programa 2 min · 40 °C · velocidad 3½.",
+      "Sirve inmediatamente las albóndigas acompañadas de la salsa.",
+      "Como presentación, puedes colocar una hoja de lechuga, una hoja de menta, la albóndiga y cebollino, y servir la salsa aparte para mojar."
     ],
     "presentation": "Servir las albóndigas con la salsa oriental; la fuente propone acompañarlas con lechuga, menta y cebollino.",
     "tips": "Las albóndigas pueden guardarse o congelarse, aunque perderán el crujiente. La fuente desaconseja congelar la salsa de yogur.",
@@ -7707,10 +7779,16 @@ window.RECIPES = [
       "medio aguacate"
     ],
     "steps": [
-      "Colocamos las cuchillas en su posición.",
-      "Introducimos las lentejas escurridas y enjuagadas, los tomates, la harina, la albahaca, una pizca de sal y otra de pimienta, programamos la velocidad 6 durante 30 segundos.",
-      "Hacemos bolitas con la masa y las aplastamos con la palma de la mano, las pasamos por el rebozado y cocinamos en una sartén por ambos lados.",
-      "Machacamos el aguacate con el queso crema y servimos con las hamburguesas."
+      "Coloca las cuchillas en su posición.",
+      "Escurre y enjuaga las lentejas.",
+      "Introduce en el vaso las lentejas, los tomates, la harina, la albahaca, una pizca de sal y otra de pimienta.",
+      "Programa 30 s · velocidad 6.",
+      "Forma bolitas con la masa.",
+      "Aplástalas con la palma de la mano para dar forma de hamburguesa.",
+      "Pasa las hamburguesas por el rebozado.",
+      "Cocínalas en una sartén por ambos lados.",
+      "Machaca el aguacate con el queso crema.",
+      "Sirve la crema de aguacate con las hamburguesas."
     ],
     "presentation": "Servir según la preparación original.",
     "tips": "Conservación no especificada; pendiente de confirmar.",
@@ -7841,7 +7919,8 @@ window.RECIPES = [
       "Pela la remolacha y córtala en trozos de 1 cm. Mézclala con un poco de aceite y hornéala sobre papel de horno a 175 °C, con calor arriba y abajo, durante 30 min.",
       "Dora la cebolla y el ajo con un poco de aceite. Añade el pimentón casi al final para evitar que se queme.",
       "Mezcla en un bol la cebolla y el ajo con el resto de ingredientes de la masa. Incorpora las judías rojas bien escurridas y machacadas con un tenedor.",
-      "Saca la remolacha del horno y pásala por el robot de cocina sin llegar a hacer un puré, manteniendo algo de textura. Añádela al resto de ingredientes y deja reposar la mezcla tapada en la nevera.",
+      "Saca la remolacha del horno y pásala por el robot de cocina sin llegar a hacer un puré, manteniendo algo de textura.",
+      "Añádela al resto de ingredientes y deja reposar la mezcla tapada en la nevera.",
       "Prepara el mojo verde triturando sus ingredientes, reservando uno de los aguacates. Añade al final ese aguacate cortado a cuchillo y reserva en la nevera.",
       "Forma las hamburguesas con las manos húmedas para evitar que se peguen.",
       "Dóralas en una sartén antiadherente con un poco de aceite durante 4 min por cada lado a fuego medio.",
